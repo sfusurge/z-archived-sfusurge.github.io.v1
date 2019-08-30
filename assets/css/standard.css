@@ -1,0 +1,226 @@
+body {
+   font-family: 'Barlow', sans-serif;
+   font-size: 20px;
+   margin: 0;
+}
+
+.button {
+	background-color: #578cdc;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	margin: 4px 8px;
+	cursor: pointer;
+}
+
+a.button:hover {
+	background-color: #1d317a;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+
+
+header {
+	padding: 12px;
+	text-align: right;
+	position: relative;
+}
+
+.title {
+	position: absolute;
+	color: #1d317a;
+	font-weight: bold;
+	left: 16px;
+	top: 12px;
+}
+
+ul#horizontal-list {
+	list-style: none;
+	word-spacing: 5px;
+	left: 100px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+	ul#horizontal-list a {
+		display: inline;
+	}
+	ul#horizontal-list p {
+		display: inline;
+	}
+	ul#horizontal-list a:hover {
+		color: #578cdc;
+	}
+	
+	
+	
+h2 {
+	text-align: center;
+	font-size: 8vw;
+	color: #1d317a;
+}
+
+h3 {
+	font-size: 6vw;
+	color =  #578cdc;
+	text-indent: 70px;
+}
+
+
+.container {
+	position: relative;
+}
+
+.align-buttons {
+	text-align: center;
+}
+
+
+
+.gap-space {
+	background-color: white;
+	height: 75px;
+	width: auto;
+}
+
+.std-text {
+	text-align: center;
+}
+
+
+.showcase-template {
+	position: relative;
+	height: 675px;
+	width: 100%;
+}
+
+.showcase-img{
+	padding: 20px;
+	position: absolute;
+	top: 10%;
+	left: 5%;
+}
+
+.show-button {
+	position: absolute;
+	padding: 20px;
+	bottom: 10%;
+	left: 5%;
+}
+
+.showcase-text {
+	padding: 20px;
+	position: absolute;
+	text-align: justify;
+	top:8%;
+	left: 45%;
+	font-size: 2.25vw;
+}
+
+.showcase-name {
+	font-size: 4vw;
+	color =  #578cdc;
+}
+
+.showcase-title {
+	padding: 20px;
+	position: absolute;
+	text-align: justify;
+	left: 45%;
+	font-size: 3vw;
+	font-weight: bold;
+}
+
+
+
+ul#email-display{
+	list-style: none;
+	font-size: 2.5vw;
+	text-align: center;
+	}
+	ul#email-display p {
+		display: inline;
+	}
+	ul#email-display .emphasized-text {
+		color: #578cdc;
+	}
+	
+ul#listing-template {
+		list-style: none;
+	font-size: 2.5vw;
+	text-align: left;
+}
+	ul#listing-template p {
+		display: inline;
+	}
+	ul#listing-template .emphasized-text {
+		color: #578cdc;
+	}
+	
+.apply-container{
+	text-align: center;
+}
+	
+	
+	
+	
+.coming-soon {
+	font-size: 120px;
+	text-align: center;
+	color: #578cdc;
+	font-weight: bold;
+}
+	
+	
+
+footer {
+	text-align: center;
+	background-color: #1d317a;
+	height: 100px;
+	padding: 12px;
+	position: relative;
+}
+
+ul#horizontal-list-2 {
+	list-style: none;
+	font-size: 25px;
+	}
+	ul#horizontal-list-2 li {
+		display: inline;
+	}
+	ul#horizontal-list-2 a {
+		color: white;
+	}
+	ul#horizontal-list-2 a:hover {
+		color: #578cdc;
+	}
+	
+.contact {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+}
+
+.sponsor {
+	position: absolute;
+	top: 8px;
+	right: 16px;
+}
+
+ul#horizontal-icons {
+	list-style: none;
+	position: absolute;
+	top: 25px;
+	left: 0%;
+}
+	ul#horizontal-icons p {
+		display: inline;
+	}

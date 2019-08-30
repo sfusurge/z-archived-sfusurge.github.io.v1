@@ -14,13 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: SFU Surge
-email: todo@club_email_here.com
-description: >- # this means to ignore newlines until "baseurl:"
-  A club bringing together tech ppl
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+
+include: [_pages]
+exclude: [readme.md]
 
 # Build settings
 #markdown: kramdown

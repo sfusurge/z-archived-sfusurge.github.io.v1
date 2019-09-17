@@ -74,7 +74,7 @@ h2 {
 
 h3 {
 	font-size: 6vw;
-	color =  #578cdc;
+	color :  #578cdc;
 	text-indent: 70px;
 }
 
@@ -131,7 +131,7 @@ h3 {
 
 .showcase-name {
 	font-size: 4vw;
-	color =  #578cdc;
+	color :  #578cdc;
 }
 
 .showcase-title {

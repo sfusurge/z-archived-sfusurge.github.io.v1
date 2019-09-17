@@ -21,3 +21,9 @@ At the top of html files for pages there is some Jekyll front matter (denoted wi
 * permalink: The part of the url after the base url that links to this page
 * layout - Which layout file from /_layouts to use for the page.
 * stylesheet_override - If the page should use a css file different than standard.css, specify it here
+
+## TODOs
+- make mobile responsive (currently its not)
+- change header color
+- add contents 
+- add email and recaptcha

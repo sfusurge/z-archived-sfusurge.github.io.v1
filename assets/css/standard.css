@@ -226,6 +226,11 @@ ul#horizontal-icons {
 	top: 25px;
 	left: 0%;
 }
-	ul#horizontal-icons p {
-		display: inline;
-	}
+
+ul#horizontal-icons p {
+	display: inline;
+}
+
+#footer-copyright {
+	color: white;
+}

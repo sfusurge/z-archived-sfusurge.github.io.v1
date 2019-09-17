@@ -222,6 +222,7 @@ ul#horizontal-list-2 {
 ul#horizontal-icons {
 	list-style: none;
 	position: absolute;
+	word-spacing: 10px;
 	top: 25px;
 	left: 0%;
 }

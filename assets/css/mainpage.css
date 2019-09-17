@@ -42,9 +42,13 @@ header {
 	top: 12px;
 }
 
+.title a:hover{
+	color: #578cdc;
+}
+
 ul#horizontal-list {
 	list-style: none;
-	word-spacing: 5px;
+	word-spacing: 30px;
 	left: 100px;
 	}
 	ul#horizontal-list li {

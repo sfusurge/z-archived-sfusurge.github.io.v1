@@ -105,13 +105,13 @@ banner {
 	
 h2 {
 	font-size: 6vw;
-	color =  #578cdc;
+	color :  #578cdc;
 }
 
 
 
 #events {
-	color = blue;
+	color : blue;
 	text-align: center;
 }
 	#events p {

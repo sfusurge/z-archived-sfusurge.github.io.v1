@@ -29,7 +29,7 @@ a{
 
 
 header {
-	background-color: #6c757d;
+	background-color: #2e61ae;
 	padding: 12px;
 	text-align: right;
 	position: relative;
@@ -44,7 +44,7 @@ header {
 }
 
 .title a:hover{
-	color: #ffb255;
+	color: #f5c124;
 }
 
 ul#horizontal-list {
@@ -62,7 +62,7 @@ ul#horizontal-list {
 		display: inline;
 	}
 	ul#horizontal-list a:hover {
-		color: #ffb255;
+		color: #f5c124;
 	}
 	
 	
@@ -177,7 +177,7 @@ h2 {
 
 
 footer {
-	background-color: #6c757d;
+	background-color: #2e61ae;
 	text-align: center;
 	height: 100px;
 	padding: 12px;
@@ -195,7 +195,7 @@ ul#horizontal-list-2 {
 		color: white;
 	}
 	ul#horizontal-list-2 a:hover {
-		color: #ffb255;
+		color: #f5c124;
 	}
 	
 .contact {

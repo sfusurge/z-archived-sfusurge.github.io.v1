@@ -22,13 +22,14 @@ a.button:hover {
 }
 
 a{
-	color: black;
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 }
 
 
 
 header {
+	background-color: #6c757d;
 	padding: 12px;
 	text-align: right;
 	position: relative;
@@ -43,7 +44,7 @@ header {
 }
 
 .title a:hover{
-	color: #578cdc;
+	color: #ffb255;
 }
 
 ul#horizontal-list {
@@ -61,7 +62,7 @@ ul#horizontal-list {
 		display: inline;
 	}
 	ul#horizontal-list a:hover {
-		color: #578cdc;
+		color: #ffb255;
 	}
 	
 	
@@ -176,8 +177,8 @@ h2 {
 
 
 footer {
+	background-color: #6c757d;
 	text-align: center;
-	background-color: #1d317a;
 	height: 100px;
 	padding: 12px;
 	position: relative;
@@ -194,7 +195,7 @@ ul#horizontal-list-2 {
 		color: white;
 	}
 	ul#horizontal-list-2 a:hover {
-		color: #578cdc;
+		color: #ffb255;
 	}
 	
 .contact {

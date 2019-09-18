@@ -23,7 +23,8 @@ At the top of html files for pages there is some Jekyll front matter (denoted wi
 * stylesheet_override - If the page should use a css file different than standard.css, specify it here
 
 ## TODOs
+- [X] fix github commiting issue
 - make mobile responsive (currently its not)
-- change header color
+- [X] change header color
 - add contents 
 - add email and recaptcha

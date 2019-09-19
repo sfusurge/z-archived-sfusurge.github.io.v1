@@ -26,7 +26,9 @@ a{
 	text-decoration: none;
 }
 
-
+p {
+	font-family: 'Barlow', sans-serif;
+}
 
 header {
 	background-color: #2e61ae;
@@ -44,7 +46,7 @@ header {
 }
 
 .title a:hover{
-	color: #f5c124;
+	color: #f9aa00;
 }
 
 ul#horizontal-list {
@@ -62,7 +64,7 @@ ul#horizontal-list {
 		display: inline;
 	}
 	ul#horizontal-list a:hover {
-		color: #f5c124;
+		color: #f9aa00;
 	}
 	
 	
@@ -85,7 +87,7 @@ banner {
 
 .about-header {
 	font-size: 6vw;
-	color: #f5c124;
+	color: #f9aa00;
 	position: absolute;
 	top: 50px;
 	text-indent: 90px;
@@ -93,6 +95,7 @@ banner {
 }
 
 .about-body {
+	font-family: 'Barlow', sans-serif;
 	font-size: 1.4vw;
 	position: absolute;
 	color: white;
@@ -199,7 +202,7 @@ ul#horizontal-list-2 {
 		color: white;
 	}
 	ul#horizontal-list-2 a:hover {
-		color: #f5c124;
+		color: #f9aa00;
 	}
 	
 .contact {
@@ -227,6 +230,7 @@ ul#horizontal-icons p {
 }
 
 #footer-copyright {
+	font-family: 'Barlow', sans-serif; 
 	color: white;
 }
 

@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: SFU Surge
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/sfusurge.github.io" # the subpath of your site, e.g. /blog
+url: "https://amirnaghibi.github.io" # url: "https://amirnaghibi.github.io" the base hostname & protocol for your site, e.g. http://example.com
 
 include: [_pages]
 exclude: [readme.md]

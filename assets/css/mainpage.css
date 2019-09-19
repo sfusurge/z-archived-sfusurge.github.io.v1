@@ -121,15 +121,14 @@ h2 {
 
 #events {
 	color : blue;
-	text-align: center;
 }
 	#events p {
 		text-align: left;
 	}
-	#events h2 {
+	/* #events h2 {
 		text-align: center;
 		text-indent: 90px;
-	}
+	} */
 
 .event-template{
 	position: relative;
@@ -143,6 +142,7 @@ h2 {
 
 .event-title {
 	color: #ffbf00;
+	text-align: center;
 }
 
 .event-name{

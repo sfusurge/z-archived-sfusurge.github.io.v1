@@ -27,5 +27,5 @@ At the top of html files for pages there is some Jekyll front matter (denoted wi
 - [X] fix github commiting issue
 - [ ] make mobile responsive (currently its not)
 - [X] change header color
-- [ ] add contents 
+- [ ] add contents: Home, About, Contact, ProjectHub 
 - [ ] add email and recaptcha

@@ -23,9 +23,12 @@ At the top of html files for pages there is some Jekyll front matter (denoted wi
 * stylesheet_override - If the page should use a css file different than standard.css, specify it here
 
 ## TODOs
-- [ ] remove Volunteer link (finalize links)
-- [X] fix github commiting issue
+- [X] remove Volunteer link (finalize links)
+- [ ] add contents: Home, About, Contact, ProjectHub
+- [ ] create form to get emails for ProjectHub.
+- [ ] deploy to sfusurge.com
 - [ ] make mobile responsive (currently its not)
-- [X] change header color
-- [ ] add contents: Home, About, Contact, ProjectHub 
 - [ ] add email and recaptcha
+- [X] fix github commiting issue
+- [X] change head 
+

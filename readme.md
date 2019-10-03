@@ -24,11 +24,11 @@ At the top of html files for pages there is some Jekyll front matter (denoted wi
 
 ## TODOs
 - [X] remove Volunteer link (finalize links)
-- [ ] add contents: Home, About, Contact, ProjectHub
+- [X] add contents: Home, About, Contact, ProjectHub
 - [ ] create form to get emails for ProjectHub.
-- [ ] deploy to sfusurge.com
+- [X] deploy to sfusurge.com
 - [ ] make mobile responsive (currently its not)
 - [ ] add email and recaptcha
 - [X] fix github commiting issue
-- [X] change head 
+- [X] change head
 

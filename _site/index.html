@@ -14,22 +14,37 @@
   
 </head>
 <body><header>
-  <div class="table">
-    <p class="title"><a href="/">SFU SURGE</a></p>
-    <ul id="horizontal-list">
-      <!-- <li><a href="/">HOME</a></li> -->
-      <a href="/about">ABOUT</a>
-      <a href="/projecthub">ProjectHub</a>
-      <!-- <a href="/volunteer">Volunteer</a> -->
-      <a href="/contact">Contact</a>
-      <!-- commend out for now. might add in future -->
-      <!-- <a href="/#events">EVENTS</a>  --> 
-      <!-- <a href="/projects">PROJECTS</a> -->
-      <!-- <a href="/hackathon">HACKATHON</a> -->
-    </ul>
-  </div>
-</header>
-<main class="page-content" aria-label="Content">
+    <nav>
+      <div id="logo">
+        <p class="title"><a href="/sfusurge.github.io">SFU SURGE</a></p>
+      </div>
+  
+      <label for="drop" class="toggle">Menu</label>
+      <input type="checkbox" id="drop" />
+      <ul class="menu main-mm">
+        <li><a href="/sfusurge.github.io/about">About</a></li>
+        <li><a href="/sfusurge.github.io/projecthub">ProjectHub</a></li>
+        <!-- <li><a href="/volunteer">Volunteer</a></li> -->
+        <li><a href="/sfusurge.github.io/contact">Contact</a></li>
+        <!-- commend out for now. might add in future -->
+        <!-- <li><a href="/#events">EVENTS</a></li>  -->
+        <!-- <li><a href="/projects">PROJECTS</a></li> -->
+        <!-- <li><a href="/hackathon">HACKATHON</a></li> -->
+        <!-- Drop Down If Needed - make last item-->
+        <li>
+          <label for="drop-1" class="toggle">Drop Down</label>
+          <a href="#">Drop Down</a>
+          <input type="checkbox" id="drop-1" />
+          <ul class="tier-drop-down">
+            <li><a href="#">Something here</a></li>
+            <li><a href="#">Something here</a></li>
+            <li><a href="#">Something here</a></li>
+          </ul>
+        </li>
+  
+      </ul>
+    </nav>
+  </header><main class="page-content" aria-label="Content">
       <img src="/sfusurge.github.io/assets/images/surge-logo3.jpg" class ="banner" style="width:100%;">
 
 <span id="about">
@@ -51,7 +66,7 @@
 
 	<!-- <div class="event-template">
 		<img src="/sfusurge.github.io/assets/images/events/icebreaker.png" class = "event-img">
-		
+
 		<p class="event-name">Fall Ice Breaker!</p>
 		<p class="event-desc">Our long-awaited Ice-breaker is happening tomorrow at 5:30pm in Forum Chambers and we can't wait to meet you. Looking to hear more about upcoming events, projects, and opportunities to work with SFU Surge? Then you don't want to miss out on this! Fun games and free food are on us.</p>
 		<div class="event-buttons">
@@ -66,8 +81,8 @@
 
 <!-- <marquee>If you are interested in Project Hub, don't forget to sign up!</marquee> -->
 
-<div class="row">
-	
+<!-- <div class="row">
+
 		<div class="column">
 			<div class="card">
 					<h3 class="event-title" style="font-family: 'Barlow', sans-serif; color: #f9aa00;">Ice-breaker</h3>
@@ -76,13 +91,26 @@
 			</div>
 		</div>
 
-		<!-- <div class="column">
+		 <div class="column">
 		  <div class="card">
 					<h3>Event 2</h3>
 					<p>Some text</p>
 					<p>Some text</p>
 			</div>
-		</div> -->
+		</div>
+</div> -->
+
+<div class="row">
+
+		<div class="column">
+			<a href="https://www.facebook.com/events/688636231657226/">
+            <div class="card">
+					<h3 class="event-title" style="font-family: 'Barlow', sans-serif; color: #f9aa00;">Code to Win!</h3>
+					<p><b>Wednesday, 16 October 2019</b></p>
+					<p><b>5:30pm - 8:00pm at TASC 9204</b></p>
+			</div>
+			</a>
+		</div>
 </div>
 
 <div class = "gap-space"></div>
@@ -104,6 +132,9 @@
       </p>
       <p><a href="https://twitter.com/sfusurge" target="_blank">
       <img border="0" src="/sfusurge.github.io/assets/icons/twitter.png" width="30" height="30"></a>
+      </p>
+      <p><a href="https://github.com/sfusurge" target="_blank">
+      <img border="0" src="/sfusurge.github.io/assets/icons/github.png" width="30" height="30"></a>
       </p>
     </ul>
     <!-- <p id="footer-copyright">© SFU SURGE 2019-2020</p>      -->

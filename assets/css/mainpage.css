@@ -1,278 +1,460 @@
 body {
-   font-family: 'Barlow', sans-serif;
-   font-size: 20px;
-   margin: 0;
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  margin: 0;
 }
 
 .button {
-	background-color: #578cdc;
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 25px;
-	margin: 4px 6px;
-	cursor: pointer;
+  background-color: #578cdc;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 6px;
+  cursor: pointer;
 }
 
 a.button:hover {
-	background-color: #1d317a;
+  background-color: #1d317a;
 }
 
-a{
-	color: rgb(255, 255, 255);
-	text-decoration: none;
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 p {
-	font-family: 'Barlow', sans-serif;
-}
-
-header {
-	background-color: #2e61ae;
-	padding: 12px;
-	text-align: right;
-	position: relative;
+  font-family: "Barlow", sans-serif;
 }
 
 .title {
-	position: absolute;
-	color: #1d317a;
-	font-weight: bold;
-	left: 16px;
-	top: 12px;
+  color: #1d317a;
+  font-weight: bold;
 }
 
-.title a:hover{
-	color: #f9aa00;
+.title a {
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.title a:hover {
+  color: #f9aa00;
 }
 
 ul#horizontal-list {
-	list-style: none;
-	word-spacing: 30px;
-	left: 100px;
-	}
-	ul#horizontal-list li {
-		display: inline;
-	}
-	ul#horizontal-list a {
-		display: inline;
-	}
-	ul#horizontal-list p {
-		display: inline;
-	}
-	ul#horizontal-list a:hover {
-		color: #f9aa00;
-	}
-	
-	
-	
-banner {
-	position: relative;
-	text-align: center;
+  list-style: none;
+  word-spacing: 30px;
+  left: 100px;
 }
-	
-	
-#about-img{
-	width:100%; 
-	height:auto;
+ul#horizontal-list li {
+  display: inline;
+}
+ul#horizontal-list a {
+  display: inline;
+}
+ul#horizontal-list p {
+  display: inline;
+}
+ul#horizontal-list a:hover {
+  color: #f9aa00;
+}
+
+banner {
+  position: relative;
+  text-align: center;
+}
+
+#about-img {
+  width: 100%;
+  height: auto;
 }
 
 .container {
-	position: relative;
-	padding: 2px 16px;
+  position: relative;
+  padding: 2px 16px;
 }
 
 .about-header {
-	font-size: 6vw;
-	color: #f9aa00;
-	position: absolute;
-	top: 50px;
-	text-indent: 90px;
-	font-weight: bold;
+  font-size: 6vw;
+  color: #f9aa00;
+  position: absolute;
+  top: 50px;
+  text-indent: 90px;
+  font-weight: bold;
 }
 
 .about-body {
-	font-family: 'Barlow', sans-serif;
-	font-size: 1.4vw;
-	position: absolute;
-	color: white;
-	top: 45%;
-	left: 15%;
-	right: 15%;
-	text-align: center;
-	line-height: 200%;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.4vw;
+  position: absolute;
+  color: white;
+  top: 45%;
+  left: 15%;
+  right: 15%;
+  text-align: center;
+  line-height: 200%;
 }
 
-.about-buttons{
-	text-align: center;
+.about-buttons {
+  text-align: center;
 }
 
-
-	
 h2 {
-	font-size: 6vw;
-	color :  #578cdc;
+  font-size: 6vw;
+  color: #578cdc;
 }
-
-
 
 #events {
-	color : blue;
+  color: blue;
 }
-	#events p {
-		text-align: left;
-	}
-	/* #events h2 {
-		text-align: center;
-		text-indent: 90px;
-	} */
+#events p {
+  text-align: left;
+}
+/* #events h2 {
+    text-align: center;
+    text-indent: 90px;
+  } */
 
-.event-template{
-	position: relative;
+.event-template {
+  position: relative;
 }
 
 .event-img {
-	max-width: 45%;
-	height: auto;
-	position: relative;
+  max-width: 45%;
+  height: auto;
+  position: relative;
 }
 
 .event-title {
-	color: #ffbf00;
-	text-align: center;
+  color: #ffbf00;
+  text-align: center;
 }
 
-.event-name{
-	font-weight: bold;
-	text-indent: 90px;
-	font-size: 25px;
+.event-name {
+  font-weight: bold;
+  text-indent: 90px;
+  font-size: 25px;
 }
 
 .event-desc {
-	margin: 70px;
+  margin: 70px;
 }
-
-
 
 .gap-space {
-	background-color: white;
-	height: 75px;
-	width: auto;
-	right: 50%;
+  background-color: white;
+  height: 75px;
+  width: auto;
+  right: 50%;
 }
 
-
-
 .involve-buttons {
-	text-align: center;
+  text-align: center;
 }
 
 .involve-title {
-	text-indent: 70px;
-	color: #578cdc;
+  text-indent: 70px;
+  color: #578cdc;
 }
 
 .footer-space {
-	background-color: white;
-	height: 75px;
-	width: auto;
+  background-color: white;
+  height: 75px;
+  width: auto;
 }
 
-
-
 footer {
-	background-color: #2e61ae;
-	text-align: center;
-	height: 100px;
-	padding: 12px;
-	position: relative;
+  background-color: #2e61ae;
+  text-align: center;
+  height: 100px;
+  padding: 12px;
+  position: relative;
 }
 
 ul#horizontal-list-2 {
-	list-style: none;
-	font-size: 25px;
-	}
-	ul#horizontal-list-2 li {
-		display: inline;
-	}
-	ul#horizontal-list-2 a {
-		color: white;
-	}
-	ul#horizontal-list-2 a:hover {
-		color: #f9aa00;
-	}
-	
+  list-style: none;
+  font-size: 25px;
+}
+ul#horizontal-list-2 li {
+  display: inline;
+}
+ul#horizontal-list-2 a {
+  color: white;
+}
+ul#horizontal-list-2 a:hover {
+  color: #f9aa00;
+}
+
 .contact {
-	position: absolute;
-	top: 8px;
-	left: 16px;
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
 
 .sponsor {
-	position: absolute;
-	top: 8px;
-	right: 16px;
+  position: absolute;
+  top: 8px;
+  right: 16px;
 }
 
 ul#horizontal-icons {
-	list-style: none;
-	position: absolute;
-	word-spacing: 10px;
-	top: 25px;
-	left: 0%;
+  list-style: none;
+  position: absolute;
+  word-spacing: 10px;
+  top: 25px;
+  left: 0%;
 }
 
 ul#horizontal-icons p {
-	display: inline;
+  display: inline;
 }
 
 #footer-copyright {
-	font-family: 'Barlow', sans-serif; 
-	color: white;
+  font-family: "Barlow", sans-serif;
+  color: white;
 }
 
 * {
-	box-sizing: border-box;
-  }
-  
-  body {
-	font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  /* Float four columns side by side */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 15px;
+  margin-top: 20px;
+  text-align: center;
+  background-image: linear-gradient(to right, rgb(255, 60, 0), rgb(13, 182, 64), rgb(0, 132, 255));
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
   .column {
-	float: left;
-	width: 25%;
-	padding: 0 10px;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
-  
-  /* Remove extra left and right margins, due to padding in columns */
-  .row {margin: 0 -5px;}
-  
-  /* Clear floats after the columns */
-  .row:after {
-	content: "";
-	display: table;
-	clear: both;
+}
+
+/* Nav Menu Bar */
+.toggle,
+[id^="drop"] {
+  display: none;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  background-color: #2e61ae;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+  position: relative;
+}
+
+#logo {
+  display: block;
+  padding: 0 30px;
+}
+
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0 0 0 auto;
+  list-style: none;
+  position: relative;
+  height: 100%;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0px;
+  display: inline-block;
+  background-color: #2e61ae;
+  height: 100%;
+}
+
+nav ul a {
+  display: block;
+  padding: 14px 20px;
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  height: 100%;
+  line-height: 56px;
+}
+
+nav ul li ul li:hover {
+  background: #000000;
+}
+
+nav ul a:hover {
+  color: #f9aa00;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 80px;
+  z-index: 1;
+  right: 0;
+}
+
+nav ul li:hover > ul {
+  display: inherit;
+}
+
+nav ul ul li {
+  width: 170px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+li > a:after {
+  content: " +";
+}
+li > a:only-child:after {
+  content: "";
+}
+
+/* Media Queries For Mobile Menu */
+
+@media all and (max-width: 768px) {
+  #logo {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    padding: 0 0 0 14px;
   }
-  
-  /* Style the counter cards */
-  .card {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-	padding: 15px;
-	margin-top: 20px;
-	text-align: center;
-	background-image: linear-gradient(to right, rgb(255, 60, 0), rgb(13, 182, 64), rgb(0, 132, 255));
+
+  nav {
+    margin: 0;
   }
-  
-  /* Responsive columns - one column layout (vertical) on small screens */
-  @media screen and (max-width: 600px) {
-	.column {
-	  width: 100%;
-	  display: block;
-	  margin-bottom: 20px;
-	}
+
+  .toggle + a,
+  .menu {
+    display: none;
   }
+
+  .toggle {
+    display: block;
+    background-color: #2e61ae;
+    padding: 14px;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    border: none;
+    height: 100%;
+    line-height: 56px;
+  }
+
+  [id^="drop"]:checked + ul {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    z-index: 1;
+    border-top: 1px solid #234b86;
+  }
+
+  nav ul li {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #234b86;
+  }
+
+  nav ul ul .toggle,
+  nav ul ul a {
+    padding: 0 40px;
+  }
+
+  nav ul ul ul a {
+    padding: 0 80px;
+  }
+
+  nav a:hover,
+  nav ul ul ul a {
+    color: #f9aa00;
+  }
+
+  nav ul li ul li .toggle,
+  nav ul ul a,
+  nav ul ul ul a {
+    padding: 14px 20px;
+    color: #fff;
+    font-size: 17px;
+  }
+
+  nav ul li ul li .toggle,
+  nav ul ul a {
+    background-color: #212121;
+  }
+
+  nav ul ul {
+    float: none;
+    position: static;
+    color: #ffffff;
+  }
+
+  nav ul ul li:hover > ul,
+  nav ul li:hover > ul {
+    display: none;
+  }
+
+  nav ul ul li {
+    display: block;
+    width: 100%;
+  }
+
+  nav ul ul ul li {
+    position: static;
+  }
+
+  [id^="drop"]:checked + ul.tier-drop-down {
+    display: block;
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    border-top: 1px solid #234b86;
+  }
+}
+
+@media all and (max-width: 330px) {
+  nav ul li {
+    display: block;
+    width: 94%;
+  }
+}

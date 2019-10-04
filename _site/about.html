@@ -14,22 +14,37 @@
   
 </head>
 <body><header>
-  <div class="table">
-    <p class="title"><a href="/sfusurge.github.io">SFU SURGE</a></p>
-    <ul id="horizontal-list">
-      <!-- <li><a href="/">HOME</a></li> -->
-      <a href="/sfusurge.github.io/about">ABOUT</a>
-      <a href="/sfusurge.github.io/projecthub">ProjectHub</a>
-      <!-- <a href="/volunteer">Volunteer</a> -->
-      <a href="/sfusurge.github.io/contact">Contact</a>
-      <!-- commend out for now. might add in future -->
-      <!-- <a href="/#events">EVENTS</a>  --> 
-      <!-- <a href="/projects">PROJECTS</a> -->
-      <!-- <a href="/hackathon">HACKATHON</a> -->
-    </ul>
-  </div>
-</header>
-<main class="page-content" aria-label="Content">
+    <nav>
+      <div id="logo">
+        <p class="title"><a href="/sfusurge.github.io">SFU SURGE</a></p>
+      </div>
+  
+      <label for="drop" class="toggle">Menu</label>
+      <input type="checkbox" id="drop" />
+      <ul class="menu main-mm">
+        <li><a href="/sfusurge.github.io/about">About</a></li>
+        <li><a href="/sfusurge.github.io/projecthub">ProjectHub</a></li>
+        <!-- <li><a href="/volunteer">Volunteer</a></li> -->
+        <li><a href="/sfusurge.github.io/contact">Contact</a></li>
+        <!-- commend out for now. might add in future -->
+        <!-- <li><a href="/#events">EVENTS</a></li>  -->
+        <!-- <li><a href="/projects">PROJECTS</a></li> -->
+        <!-- <li><a href="/hackathon">HACKATHON</a></li> -->
+        <!-- Drop Down If Needed - make last item-->
+        <li>
+          <label for="drop-1" class="toggle">Drop Down</label>
+          <a href="#">Drop Down</a>
+          <input type="checkbox" id="drop-1" />
+          <ul class="tier-drop-down">
+            <li><a href="#">Something here</a></li>
+            <li><a href="#">Something here</a></li>
+            <li><a href="#">Something here</a></li>
+          </ul>
+        </li>
+  
+      </ul>
+    </nav>
+  </header><main class="page-content" aria-label="Content">
       <br>
 
 <span id="about">
@@ -144,6 +159,9 @@
       </p>
       <p><a href="https://twitter.com/sfusurge" target="_blank">
       <img border="0" src="/sfusurge.github.io/assets/icons/twitter.png" width="30" height="30"></a>
+      </p>
+      <p><a href="https://github.com/sfusurge" target="_blank">
+      <img border="0" src="/sfusurge.github.io/assets/icons/github.png" width="30" height="30"></a>
       </p>
     </ul>
     <!-- <p id="footer-copyright">© SFU SURGE 2019-2020</p>      -->

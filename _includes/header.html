@@ -1,16 +1,32 @@
 <header>
-  <div class="table">
-    <p class="title"><a href="{{site.baseurl}}">SFU SURGE</a></p>
-    <ul id="horizontal-list">
-      <!-- <li><a href="/">HOME</a></li> -->
-      <a href="{{site.baseurl}}/about">ABOUT</a>
-      <a href="{{site.baseurl}}/projecthub">ProjectHub</a>
-      <!-- <a href="/volunteer">Volunteer</a> -->
-      <a href="{{site.baseurl}}/contact">Contact</a>
-      <!-- commend out for now. might add in future -->
-      <!-- <a href="/#events">EVENTS</a>  --> 
-      <!-- <a href="/projects">PROJECTS</a> -->
-      <!-- <a href="/hackathon">HACKATHON</a> -->
-    </ul>
-  </div>
-</header>
+    <nav>
+      <div id="logo">
+        <p class="title"><a href="{{site.baseurl}}">SFU SURGE</a></p>
+      </div>
+  
+      <label for="drop" class="toggle">Menu</label>
+      <input type="checkbox" id="drop" />
+      <ul class="menu main-mm">
+        <li><a href="{{site.baseurl}}/about">About</a></li>
+        <li><a href="{{site.baseurl}}/projecthub">ProjectHub</a></li>
+        <!-- <li><a href="/volunteer">Volunteer</a></li> -->
+        <li><a href="{{site.baseurl}}/contact">Contact</a></li>
+        <!-- commend out for now. might add in future -->
+        <!-- <li><a href="/#events">EVENTS</a></li>  -->
+        <!-- <li><a href="/projects">PROJECTS</a></li> -->
+        <!-- <li><a href="/hackathon">HACKATHON</a></li> -->
+        <!-- Drop Down If Needed - make last item-->
+        <li>
+          <label for="drop-1" class="toggle">Drop Down</label>
+          <a href="#">Drop Down</a>
+          <input type="checkbox" id="drop-1" />
+          <ul class="tier-drop-down">
+            <li><a href="#">Something here</a></li>
+            <li><a href="#">Something here</a></li>
+            <li><a href="#">Something here</a></li>
+          </ul>
+        </li>
+  
+      </ul>
+    </nav>
+  </header>

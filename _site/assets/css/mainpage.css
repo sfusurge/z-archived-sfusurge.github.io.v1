@@ -265,7 +265,7 @@ ul#horizontal-icons p {
 	padding: 15px;
 	margin-top: 20px;
 	text-align: center;
-	background-image: linear-gradient(to right, rgb(255, 60, 0), rgb(13, 182, 64), rgb(0, 132, 255));
+	background-image: linear-gradient(to bottom, rgb(11, 212, 215), rgb(13, 165, 182), rgb(58, 142, 220));
   }
   
   /* Responsive columns - one column layout (vertical) on small screens */
@@ -285,7 +285,6 @@ ul#horizontal-icons p {
 	cursor:pointer;
 	color:#262526;
 	font-family:'Barlow';
-	font-weight: bolder;
 	font-size:17px;
 	padding:8px 10px;
 	text-decoration:none;

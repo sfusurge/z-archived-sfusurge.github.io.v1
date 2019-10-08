@@ -53,6 +53,8 @@ ul#horizontal-list {
 	list-style: none;
 	word-spacing: 30px;
 	left: 100px;
+	padding-top: 20px;
+	margin-top: 30px
 	}
 	ul#horizontal-list li {
 		display: inline;

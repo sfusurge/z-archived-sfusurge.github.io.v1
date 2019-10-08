@@ -276,3 +276,25 @@ ul#horizontal-icons p {
 	  margin-bottom: 20px;
 	}
   }
+
+  .myButton {
+	background-color:#f5b003;
+	border-radius:28px;
+	border:1px solid #dba418;
+	display:inline-block;
+	cursor:pointer;
+	color:#262526;
+	font-family:'Barlow';
+	font-weight: bolder;
+	font-size:17px;
+	padding:8px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#ffb310;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

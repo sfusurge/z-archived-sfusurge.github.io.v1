@@ -30,6 +30,13 @@ a.button:hover {
   
 .container {
 	padding: 2px 16px;
+	background-image: url("../images/blue-background.png");
+	width: 100%;
+	height: 100vh;
+}
+
+.main-container {
+	height: 57vh;
 }
 
 a{
@@ -94,30 +101,25 @@ banner {
 	height:auto;
 }
 
-.container {
-	position: relative;
-	padding: 2px 16px;
-}
-
 .about-header {
 	font-size: 6vw;
 	color: #f9aa00;
-	position: absolute;
-	top: 50px;
-	text-indent: 90px;
 	font-weight: bold;
+	text-align: center;
 }
 
 .about-body {
 	font-family: 'Barlow', sans-serif;
 	font-size: 1.4vw;
-	position: absolute;
 	color: white;
-	top: 45%;
-	left: 15%;
-	right: 15%;
 	text-align: center;
 	line-height: 200%;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.sign-up {
+	margin-top: 50px
 }
 
 .about-buttons{

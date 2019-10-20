@@ -278,7 +278,7 @@ ul#horizontal-icons p {
 	width: 40%;
 	box-shadow: 15px 15px 15px 5px #f9aa00; /* this adds the "card" effect */
 	padding: 15px;
-	margin: 40px;
+	margin: 100px auto;
 	text-align: center;
 	background-image: linear-gradient(to bottom, rgb(11, 212, 215), rgb(13, 165, 182), rgb(58, 142, 220));
   }
@@ -292,6 +292,12 @@ ul#horizontal-icons p {
 	  width: 60%;
 	  display: block;
 	  margin-bottom: 20px;
+	}
+
+	.card {
+		width: 100%;
+		box-shadow: none;
+		margin: 0;
 	}
   }
 

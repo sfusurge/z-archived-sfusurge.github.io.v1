@@ -294,6 +294,15 @@ ul#horizontal-icons p {
 	  display: block;
 	  margin-bottom: 20px;
 	}
+
+	.about-body{
+		font-size: 15px;
+		width: 100%;
+	}
+
+	.main-container {
+		height: 45vh;
+	}
   }
 
   .myButton {

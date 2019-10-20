@@ -111,7 +111,6 @@ banner {
 
 .about-body {
 	font-family: 'Barlow', sans-serif;
-	font-size: 1.4vw;
 	color: white;
 	text-align: center;
 	line-height: 200%;
@@ -127,7 +126,6 @@ banner {
 .sign-up {
 	margin-top: 50px;
 }
-
 	
 h2 {
 	font-size: 6vw;
@@ -297,7 +295,7 @@ ul#horizontal-icons p {
 			margin-bottom: 20px;
 		}
 
-		.about-body{
+		.about-body {
 			font-size: 15px;
 			width: 100%;
 		}
@@ -305,9 +303,7 @@ ul#horizontal-icons p {
 		.main-container {
 			height: 45vh;
 		}
-	}
-	
-	
+  }
 
   .myButton {
 	background-color:#f5b003;

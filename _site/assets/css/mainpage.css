@@ -25,7 +25,6 @@ a.button:hover {
 .card {
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	transition: 0.3s;
-	width: 40%;
 }
   
 .container {
@@ -274,8 +273,15 @@ ul#horizontal-icons p {
   }
   
   /* Style the counter cards */
+  .event-cards{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
   .card {
-	width: 40%;
+	max-width: 300px;
 	box-shadow: 15px 15px 15px 5px #f9aa00; /* this adds the "card" effect */
 	padding: 15px;
 	margin: 40px;

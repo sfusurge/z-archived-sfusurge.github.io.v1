@@ -4,7 +4,7 @@ stylesheet_override: mainpage.css
 ---
 <img src="{{site.baseurl}}/assets/images/surge-logo3.jpg" class ="banner" style="width:100%;">
 
-<span id="about">
+<div id="about">
 	<div class="container">
 		<img id="about-img" src="{{site.baseurl}}/assets/images/blue-background.png">
 		<div class="about-header" style="font-family: 'Barlow', sans-serif; color: #f9aa00;">About Us</div>
@@ -18,11 +18,11 @@ stylesheet_override: mainpage.css
 			<a href="/sponsors" class="button">OUR SPONSORS</a>
 		</div> -->
 	</div>
-</span>
+</div>
 
 
 
-<span id="events">
+<div id="events">
 <h2 class="event-title" style="font-family: 'Barlow', sans-serif; color: #f9aa00;">EVENTS</h2>
 
 	<!-- <div class="event-template">
@@ -35,7 +35,6 @@ stylesheet_override: mainpage.css
 			<a href="#" class="button">GET TICKETS</a>
 		</div>
 	</div> -->
-</span>
 
 
 <!-- <div class = "gap-space"></div> -->
@@ -83,25 +82,29 @@ stylesheet_override: mainpage.css
 			</a>
 		</div>
 </div> -->
-	<a href="https://www.facebook.com/events/532278927589589/" target="_blank">
-	<div class="card">
-		<img src="{{site.baseurl}}/assets/images/events/halloween.jpg" alt="halloween" style="width:100%">
-		<div class="container">
-		  <h3 style="font-family: 'Barlow', sans-serif; color: #f9aa00;"><b>HALLOWEEN  SOCIAL</b></h3> 
-		  <p><b>NOV 1, 2019 | 4:30 - MIDNIGHT | TASK 9204</b></p> 
-		</div>
+<div class="event-cards">
+	<div class="event-cards__card">
+			<a href="https://www.facebook.com/events/532278927589589/" target="_blank">
+				<div class="card">
+					<img src="{{site.baseurl}}/assets/images/events/halloween.jpg" alt="halloween" style="width:100%">
+					<div class="container">
+						<h3 style="font-family: 'Barlow', sans-serif; color: #f9aa00;"><b>HALLOWEEN SOCIAL</b></h3> 
+						<p><b>NOV 1, 2019 | 4:30 - MIDNIGHT | TASK 9204</b></p> 
+					</div>
+				</div>
+				</a>
 	</div>
-	</a>
-
-	<br><br>
-
-	<a href={{site.baseurl}}/hackathon target="_blank">
-	<div class="card">
-		<img src="{{site.baseurl}}/assets/images/events/stormhacks.png" alt="halloween" style="width:100%">
-		<div class="container">
-		  <h3 style="font-family: 'Barlow', sans-serif; color: #f9aa00;"><b>HACKATHON</b></h3> 
-		  <p><b>Stay Tuned!</b></p>
-		  <p><b>sign up for newsletter</b></p> 
-		</div>
+	<div class="event-cards__card">
+			<a href={{site.baseurl}}/hackathon target="_blank">
+				<div class="card">
+					<img src="{{site.baseurl}}/assets/images/events/stormhacks.png" alt="halloween" style="width:100%">
+					<div class="container">
+						<h3 style="font-family: 'Barlow', sans-serif; color: #f9aa00;"><b>HACKATHON</b></h3> 
+						<p><b>Stay Tuned!</b></p>
+						<p><b>sign up for newsletter</b></p> 
+					</div>
+				</div>
+				</a>
 	</div>
-	</a>
+</div>
+</div>

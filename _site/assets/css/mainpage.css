@@ -95,36 +95,41 @@ banner {
 }
 
 .container {
-	position: relative;
 	padding: 2px 16px;
+	background-image: url("../images/blue-background.png");
+	width: 100%;
+	height: 100vh;
+	overflow: scroll;
+}
+
+.main-container {
+	height: 57vh;
 }
 
 .about-header {
 	font-size: 6vw;
 	color: #f9aa00;
-	position: absolute;
-	top: 50px;
-	text-indent: 90px;
 	font-weight: bold;
+	text-align: center;
 }
 
 .about-body {
 	font-family: 'Barlow', sans-serif;
-	font-size: 1.4vw;
-	position: absolute;
 	color: white;
-	top: 45%;
-	left: 15%;
-	right: 15%;
 	text-align: center;
 	line-height: 200%;
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 50px;
 }
 
 .about-buttons{
 	text-align: center;
 }
 
-
+.sign-up {
+	margin-top: 50px;
+}
 	
 h2 {
 	font-size: 6vw;
@@ -303,7 +308,17 @@ ul#horizontal-icons p {
 			width: 100%;
 			box-shadow: none;
 			margin: 0;
+    }
+		
+    .about-body {
+			font-size: 15px;
+			width: 100%;
 		}
+
+		.main-container {
+			height: 45vh;
+		}
+    
   }
 
   .myButton {

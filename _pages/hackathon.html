@@ -1,376 +1,3397 @@
 ---
-layout: default
-title: Hackathon
+title: StormHacks
 permalink: /hackathon
-stylesheet_override: mainpage.css
 ---
-
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Knewave&display=swap" rel="stylesheet">
-        <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,700,400' rel='stylesheet' type='text/css'>
-        <meta name="viewport" content="width=device-width">
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>StormHacks</title>
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: Web 1920 – 11;
+		--web-view-id: Web_1920___11;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Web_1920___11;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Web_1920___11 {
+		position: absolute;
+		box-sizing: border-box;
+		background: linear-gradient(180deg, rgba(11,5,37,1) 0%, rgba(92,88,109,1) 100%);
+		width: 1920px;
+		height: 8220px;
+		overflow: hidden;
+		--web-view-name: Web 1920 – 11;
+		--web-view-id: Web_1920___11;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: width;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#Menu {
+		position: absolute;
+		width: 337px;
+		height: 26px;
+		left: 1269px;
+		top: 57px;
+		overflow: visible;
+	}
+	#ABOUT {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 76px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,181,0,1);
+	}
+	#SPONSORS {
+		position: absolute;
+		left: 123px;
+		top: 0px;
+		overflow: visible;
+		width: 123px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,181,0,1);
+	}
+	#FAQ {
+		position: absolute;
+		left: 293px;
+		top: 0px;
+		overflow: visible;
+		width: 45px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,181,0,1);
+	}
+	#Menu_A0_Group_2 {
+		position: absolute;
+		width: 356px;
+		height: 33px;
+		left: 47px;
+		top: 52px;
+		overflow: visible;
+	}
+	#_SFU_SURGE_LOGO___PRESENTS_ {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 357px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_37 {
+		position: absolute;
+		width: 1725.283px;
+		height: 1235.967px;
+		left: 101.501px;
+		top: 1203.544px;
+		overflow: visible;
+	}
+	#Group_38 {
+		opacity: 0.07;
+		position: absolute;
+		width: 1725.283px;
+		height: 1235.967px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_4 {
+		position: absolute;
+		width: 1068.5px;
+		height: 557px;
+		left: 422px;
+		top: 1386px;
+		overflow: visible;
+	}
+	#ABOUT_A0_Text_5 {
+		position: absolute;
+		left: 495px;
+		top: 0px;
+		overflow: visible;
+		width: 95px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#StormHacks_is_hosted_by_SFU_Su {
+		position: absolute;
+		left: 589.5px;
+		top: 278px;
+		overflow: hidden;
+		width: 480px;
+		height: 279px;
+		text-align: left;
+		font-family: Nunito Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.4px;
+	}
+	#WHAT_IS_STORMHACKS_ {
+		position: absolute;
+		left: 0px;
+		top: 84px;
+		overflow: visible;
+		width: 330px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_10 {
+		position: absolute;
+		width: 735px;
+		height: 287px;
+		left: 293px;
+		top: 2690px;
+		overflow: visible;
+	}
+	#WHO_SHOULD_APPLY {
+		position: absolute;
+		left: 224.5px;
+		top: 0px;
+		overflow: visible;
+		width: 288px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Lorem_ipsum_dolor_sit_amet__co {
+		position: absolute;
+		left: 0px;
+		top: 82px;
+		overflow: hidden;
+		width: 736px;
+		height: 205px;
+		text-align: left;
+		font-family: Nunito Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.4px;
+	}
+	.lightening1 {
+		position: absolute;
+		overflow: visible;
+		width: 55px;
+		height: 54px;
+		left: 341px;
+		top: 16px;
+	}
+	.Screen_Shot_2019_10_25_at_5_31 {
+		overflow: visible;
+		position: absolute;
+		width: 325px;
+		height: 339px;
+		left: 1579px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_30 {
+		transform: matrix(1,0,0,1,-74.8536,278.1863) rotate(-38deg);
+		transform-origin: center;
+		position: absolute;
+		width: 452.106px;
+		height: 331.252px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_23 {
+		position: absolute;
+		width: 452.106px;
+		height: 331.252px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_31 {
+		position: absolute;
+		width: 496.5px;
+		height: 250.789px;
+		left: -65px;
+		top: 113.17px;
+		overflow: visible;
+	}
+	#Group_28 {
+		position: absolute;
+		width: 471.939px;
+		height: 250.789px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_25 {
+		position: absolute;
+		width: 471.939px;
+		height: 250.789px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_25_A0_Group_12 {
+		position: absolute;
+		width: 206.5px;
+		height: 103.835px;
+		left: 290px;
+		top: 53.955px;
+		overflow: visible;
+	}
+	#Menu_A0_Group_13 {
+		position: absolute;
+		width: 987px;
+		height: 210px;
+		left: 467px;
+		top: 339px;
+		overflow: visible;
+	}
+	#StormHacks_2019 {
+		filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		width: 988px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 122px;
+		color: rgba(255,255,255,1);
+	}
+	#CATCHY_CATCH_PHRASE {
+		position: absolute;
+		left: 0px;
+		top: 145px;
+		overflow: visible;
+		width: 318px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#FEB_7th___8th___SFU {
+		position: absolute;
+		left: 0px;
+		top: 178px;
+		overflow: visible;
+		width: 255px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	.lightening1_A0_Rectangle_3 {
+		position: absolute;
+		overflow: visible;
+		width: 55px;
+		height: 54px;
+		left: 932.5px;
+		top: 1397px;
+	}
+	#Group_46 {
+		position: absolute;
+		width: 2129.321px;
+		height: 1225.96px;
+		left: 1165px;
+		top: 364px;
+		overflow: visible;
+	}
+	#Group_26 {
+		position: absolute;
+		width: 1283.321px;
+		height: 681.96px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_25_A0_Group_16 {
+		position: absolute;
+		width: 1283.321px;
+		height: 681.96px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_27 {
+		position: absolute;
+		width: 720.452px;
+		height: 354.892px;
+		left: 257px;
+		top: 366.068px;
+		overflow: visible;
+	}
+	#Group_25_A0_Group_18 {
+		position: absolute;
+		width: 720.452px;
+		height: 354.892px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_55 {
+		opacity: 0.073;
+		position: absolute;
+		width: 1283.321px;
+		height: 681.96px;
+		left: 846px;
+		top: 544px;
+		overflow: visible;
+	}
+	#Group_25_A0_Group_20 {
+		position: absolute;
+		width: 1283.321px;
+		height: 681.96px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_35 {
+		position: absolute;
+		width: 496.5px;
+		height: 250.789px;
+		left: 1558px;
+		top: 3379.171px;
+		overflow: visible;
+	}
+	#Group_28_A0_Group_22 {
+		position: absolute;
+		width: 471.939px;
+		height: 250.789px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_25_A0_Group_23 {
+		position: absolute;
+		width: 471.939px;
+		height: 250.789px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_25_A0_Group_24 {
+		position: absolute;
+		width: 206.5px;
+		height: 103.835px;
+		left: 290px;
+		top: 53.955px;
+		overflow: visible;
+	}
+	#Group_39 {
+		position: absolute;
+		width: 443px;
+		height: 72px;
+		left: 467px;
+		top: 657px;
+		overflow: visible;
+	}
+	.Rectangle_17 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 218px;
+		height: 90px;
+		left: 0px;
+		top: 0px;
+	}
+	.Rectangle_18 {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 218px;
+		height: 90px;
+		left: 243px;
+		top: 0px;
+	}
+	#SIGN_IN {
+		position: absolute;
+		left: 299px;
+		top: 23px;
+		overflow: visible;
+		width: 89px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#APPLY_NOW {
+		position: absolute;
+		left: 34px;
+		top: 23px;
+		overflow: visible;
+		width: 134px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_40 {
+		position: absolute;
+		width: 1364px;
+		height: 1337px;
+		left: 278px;
+		top: 3815px;
+		overflow: visible;
+	}
+	#OUR_SPONSORS {
+		position: absolute;
+		left: 571px;
+		top: 0px;
+		overflow: visible;
+		width: 223px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_12 {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		left: 335px;
+		top: -124px;
+		overflow: visible;
+	}
+	#Rectangle_6 {
+		opacity: 0.082;
+	}
+	.Rectangle_6 {
+		position: absolute;
+		overflow: visible;
+		width: 1364px;
+		height: 1267px;
+		left: 0px;
+		top: 70px;
+	}
+	#Rectangle_19 {
+		opacity: 0.081;
+	}
+	.Rectangle_19 {
+		position: absolute;
+		overflow: visible;
+		width: 1303px;
+		height: 1210px;
+		left: 32px;
+		top: 101px;
+	}
+	.lightening1_A0_Rectangle_9 {
+		position: absolute;
+		overflow: visible;
+		width: 55px;
+		height: 54px;
+		left: 654.5px;
+		top: 16px;
+	}
+	#Group_45 {
+		position: absolute;
+		width: 750px;
+		height: 1337px;
+		left: 278px;
+		top: 5444px;
+		overflow: visible;
+	}
+	#SCHEDULE {
+		position: absolute;
+		left: 307px;
+		top: 0px;
+		overflow: visible;
+		width: 137px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_12_A0_Group_29 {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		left: 335px;
+		top: -1753px;
+		overflow: visible;
+	}
+	#Rectangle_6_A0_Rectangle_11 {
+		opacity: 0.091;
+	}
+	.Rectangle_6_A0_Rectangle_11 {
+		position: absolute;
+		overflow: visible;
+		width: 750px;
+		height: 1267px;
+		left: 0px;
+		top: 70px;
+	}
+	#Rectangle_20 {
+		opacity: 0.081;
+	}
+	.Rectangle_20 {
+		position: absolute;
+		overflow: visible;
+		width: 716px;
+		height: 1210px;
+		left: 17px;
+		top: 99px;
+	}
+	.lightening1_A0_Rectangle_13 {
+		position: absolute;
+		overflow: visible;
+		width: 55px;
+		height: 54px;
+		left: 347.5px;
+		top: 16px;
+	}
+	#Path_12 {
+		opacity: 0.197;
+	}
+	.Path_12 {
+		overflow: visible;
+		position: absolute;
+		width: 572.07px;
+		height: 572.07px;
+		left: 307.621px;
+		top: 1533.621px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	.Path_13 {
+		overflow: visible;
+		position: absolute;
+		width: 531.144px;
+		height: 531.144px;
+		left: 327.621px;
+		top: 1555.548px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ellipse_2 {
+		opacity: 0.196;
+	}
+	.Ellipse_2 {
+		position: absolute;
+		overflow: visible;
+		width: 399px;
+		height: 399px;
+		left: 761px;
+		top: 1981px;
+	}
+	.Ellipse_3 {
+		position: absolute;
+		overflow: visible;
+		width: 359px;
+		height: 359px;
+		left: 781px;
+		top: 2001px;
+	}
+	.gallery_icon {
+		position: absolute;
+		overflow: visible;
+		width: 134px;
+		height: 134px;
+		left: 893px;
+		top: 2114px;
+	}
+	.gallery_icon_A0_Rectangle_17 {
+		position: absolute;
+		overflow: visible;
+		width: 134px;
+		height: 134px;
+		left: 526px;
+		top: 1754px;
+	}
+	#Group_42 {
+		position: absolute;
+		width: 433.37px;
+		height: 433.37px;
+		left: 960px;
+		top: 3115.012px;
+		overflow: visible;
+	}
+	#Path_14 {
+		opacity: 0.076;
+	}
+	.Path_14 {
+		overflow: visible;
+		position: absolute;
+		width: 426px;
+		height: 426px;
+		transform: translate(-1225.623px, -2607.012px) matrix(1,0,0,1,1229.3081,2610.6971) rotate(1deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	#Ellipse_4 {
+		opacity: 0.084;
+	}
+	.Ellipse_4 {
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 370px;
+		left: 31.377px;
+		top: 31.988px;
+	}
+	#Lorem_ipsum_dolor_sit_amet__co_A0_Text_17 {
+		position: absolute;
+		left: 87.377px;
+		top: 194.988px;
+		overflow: hidden;
+		width: 259px;
+		height: 103px;
+		text-align: center;
+		font-family: Nunito Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.4px;
+	}
+	#TITLE_1 {
+		position: absolute;
+		left: 144.377px;
+		top: 130.988px;
+		overflow: hidden;
+		width: 145px;
+		height: 41px;
+		text-align: center;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.4px;
+	}
+	#Group_43 {
+		position: absolute;
+		width: 433.37px;
+		height: 433.37px;
+		left: 1164.623px;
+		top: 2629.012px;
+		overflow: visible;
+	}
+	#Ellipse_5 {
+		opacity: 0.076;
+	}
+	.Ellipse_5 {
+		width: 426px;
+		height: 426px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(-1225.623px, -2607.012px) matrix(1,0,0,1,1229.3081,2610.6971) rotate(1deg);
+		transform-origin: center;
+	}
+	#Ellipse_4_A0_Ellipse_5 {
+		opacity: 0.084;
+	}
+	.Ellipse_4_A0_Ellipse_5 {
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 370px;
+		left: 31.377px;
+		top: 31.988px;
+	}
+	#Lorem_ipsum_dolor_sit_amet__co_A0_Text_19 {
+		position: absolute;
+		left: 87.377px;
+		top: 194.988px;
+		overflow: hidden;
+		width: 259px;
+		height: 103px;
+		text-align: center;
+		font-family: Nunito Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.4px;
+	}
+	#TITLE_1_A0_Text_20 {
+		position: absolute;
+		left: 144.377px;
+		top: 130.988px;
+		overflow: hidden;
+		width: 145px;
+		height: 41px;
+		text-align: center;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.4px;
+	}
+	#Group_44 {
+		position: absolute;
+		width: 433.37px;
+		height: 433.37px;
+		left: 459.623px;
+		top: 2977.012px;
+		overflow: visible;
+	}
+	#Ellipse_5_A0_Ellipse_6 {
+		opacity: 0.076;
+	}
+	.Ellipse_5_A0_Ellipse_6 {
+		width: 426px;
+		height: 426px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(-1225.623px, -2607.012px) matrix(1,0,0,1,1229.3081,2610.6971) rotate(1deg);
+		transform-origin: center;
+	}
+	#Ellipse_4_A0_Ellipse_7 {
+		opacity: 0.084;
+	}
+	.Ellipse_4_A0_Ellipse_7 {
+		position: absolute;
+		overflow: visible;
+		width: 370px;
+		height: 370px;
+		left: 31.377px;
+		top: 31.988px;
+	}
+	#Lorem_ipsum_dolor_sit_amet__co_A0_Text_21 {
+		position: absolute;
+		left: 87.377px;
+		top: 194.988px;
+		overflow: hidden;
+		width: 259px;
+		height: 103px;
+		text-align: center;
+		font-family: Nunito Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.4px;
+	}
+	#TITLE_1_A0_Text_22 {
+		position: absolute;
+		left: 144.377px;
+		top: 130.988px;
+		overflow: hidden;
+		width: 145px;
+		height: 41px;
+		text-align: center;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.4px;
+	}
+	#Group_48 {
+		transform: matrix(1,0,0,1,1280.6739,6051.3982) rotate(-38deg);
+		transform-origin: center;
+		position: absolute;
+		width: 757.657px;
+		height: 555.126px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_23_A0_Group_34 {
+		position: absolute;
+		width: 757.657px;
+		height: 555.126px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_49 {
+		position: absolute;
+		width: 1283.321px;
+		height: 720.96px;
+		left: 1101px;
+		top: 5414px;
+		overflow: visible;
+	}
+	#Group_26_A0_Group_36 {
+		position: absolute;
+		width: 1283.321px;
+		height: 681.96px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_25_A0_Group_37 {
+		position: absolute;
+		width: 1283.321px;
+		height: 681.96px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_27_A0_Group_38 {
+		position: absolute;
+		width: 720.452px;
+		height: 354.892px;
+		left: 305.869px;
+		top: 366.068px;
+		overflow: visible;
+	}
+	#Group_25_A0_Group_39 {
+		position: absolute;
+		width: 720.452px;
+		height: 354.892px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#FEB_7th__DAY_1_ {
+		position: absolute;
+		left: 337px;
+		top: 5574px;
+		overflow: hidden;
+		width: 238px;
+		height: 41px;
+		text-align: center;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.4px;
+	}
+	#Group_50 {
+		position: absolute;
+		width: 1650px;
+		height: 487px;
+		left: 135px;
+		top: 7073px;
+		overflow: visible;
+	}
+	#FREQUENTLY_ASKED_QUESTIONS {
+		position: absolute;
+		left: 0.5px;
+		top: 0px;
+		overflow: visible;
+		width: 435px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+	}
+	.lightening1_A0_Rectangle_19 {
+		position: absolute;
+		overflow: visible;
+		width: 55px;
+		height: 54px;
+		left: 190px;
+		top: 16px;
+	}
+	#Group_53 {
+		position: absolute;
+		width: 1650px;
+		height: 341px;
+		left: 0px;
+		top: 146px;
+		overflow: visible;
+	}
+	#Group_51 {
+		position: absolute;
+		width: 850px;
+		height: 341px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#WHAT_IS_STORMHACKS__A0_Text_25 {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: hidden;
+		width: 359px;
+		height: 32px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.4px;
+	}
+	#WHEN_WILL_DECISIONS_BE_RELEASE {
+		position: absolute;
+		left: 0px;
+		top: 73px;
+		overflow: hidden;
+		width: 553px;
+		height: 33px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.4px;
+	}
+	#HOW_DO_I_GET_TO_STORMHACKS_ {
+		position: absolute;
+		left: 0px;
+		top: 148px;
+		overflow: hidden;
+		width: 520px;
+		height: 33px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.4px;
+	}
+	#HOW_MANY_PEOPLE_CAN_BE_ON_A_TE {
+		position: absolute;
+		left: 0px;
+		top: 223px;
+		overflow: hidden;
+		width: 606px;
+		height: 38px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.4px;
+	}
+	#WHAT_KIND_OF_HARDWARE_WILL_BE_ {
+		position: absolute;
+		left: 0px;
+		top: 303px;
+		overflow: hidden;
+		width: 851px;
+		height: 38px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.4px;
+	}
+	#Group_52 {
+		position: absolute;
+		width: 850px;
+		height: 341px;
+		left: 800px;
+		top: 0px;
+		overflow: visible;
+	}
+	#WHO_CAN_PARTICIPATE_ {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		overflow: hidden;
+		width: 359px;
+		height: 32px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.4px;
+	}
+	#HOW_MUCH_DOES_IT_COST_TO_ATTEN {
+		position: absolute;
+		left: 0px;
+		top: 73px;
+		overflow: hidden;
+		width: 572px;
+		height: 33px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.4px;
+	}
+	#WHAT_IF_I_VE_NEVER_BEEN_TO_A_H {
+		position: absolute;
+		left: 0px;
+		top: 148px;
+		overflow: hidden;
+		width: 798px;
+		height: 33px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.4px;
+	}
+	#WHAT_KIND_OF_ACTIVITIES_WILL_B {
+		position: absolute;
+		left: 0px;
+		top: 223px;
+		overflow: hidden;
+		width: 642px;
+		height: 50px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.4px;
+	}
+	#ID404__QUESTIONS_NOT_FOUND {
+		position: absolute;
+		left: 0px;
+		top: 303px;
+		overflow: hidden;
+		width: 851px;
+		height: 38px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.4px;
+	}
+	#Group_54 {
+		position: absolute;
+		width: 1242px;
+		height: 315px;
+		left: 356px;
+		top: 159px;
+		overflow: visible;
+	}
+	.Polygon_1 {
+		overflow: visible;
+		position: absolute;
+		width: 16px;
+		height: 9px;
+		transform: translate(-391.5px, -2797px) matrix(1,0,0,1,391.5,2797) rotate(180deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	.Polygon_2 {
+		overflow: visible;
+		position: absolute;
+		width: 16px;
+		height: 9px;
+		transform: translate(-391.5px, -2797px) matrix(1,0,0,1,525.5,2947) rotate(180deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	.Polygon_3 {
+		overflow: visible;
+		position: absolute;
+		width: 16px;
+		height: 9px;
+		transform: translate(-391.5px, -2797px) matrix(1,0,0,1,639.5,3022) rotate(180deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	.Polygon_4 {
+		overflow: visible;
+		position: absolute;
+		width: 16px;
+		height: 9px;
+		transform: translate(-391.5px, -2797px) matrix(1,0,0,1,581.5,2871) rotate(180deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	.Polygon_5 {
+		overflow: visible;
+		position: absolute;
+		width: 16px;
+		height: 9px;
+		transform: translate(-391.5px, -2797px) matrix(1,0,0,1,728.5,3103) rotate(180deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	.Polygon_6 {
+		overflow: visible;
+		position: absolute;
+		width: 16px;
+		height: 9px;
+		transform: translate(-391.5px, -2797px) matrix(1,0,0,1,1191.5,2798) rotate(180deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	.Polygon_7 {
+		overflow: visible;
+		position: absolute;
+		width: 16px;
+		height: 9px;
+		transform: translate(-391.5px, -2797px) matrix(1,0,0,1,1400.5,2872) rotate(180deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	.Polygon_9 {
+		overflow: visible;
+		position: absolute;
+		width: 16px;
+		height: 9px;
+		transform: translate(-391.5px, -2797px) matrix(1,0,0,1,1450.5,3021) rotate(180deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	.Polygon_8 {
+		overflow: visible;
+		position: absolute;
+		width: 16px;
+		height: 9px;
+		transform: translate(-391.5px, -2797px) matrix(1,0,0,1,1617.5,2947) rotate(180deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	.Polygon_10 {
+		overflow: visible;
+		position: absolute;
+		width: 16px;
+		height: 9px;
+		transform: translate(-391.5px, -2797px) matrix(1,0,0,1,1269.5,3102) rotate(180deg);
+		transform-origin: center;
+		left: 0px;
+		top: 0px;
+	}
+	.Rectangle_21 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 204px;
+		left: 0px;
+		top: 8016px;
+	}
+	.Screen_Shot_2019_10_25_at_7_28 {
+		position: absolute;
+		overflow: visible;
+		width: 196px;
+		height: 60px;
+		left: 862px;
+		top: 8079px;
+	}
+</style>
+<script id="applicationScript">
+///////////////////////////////////////
+// INITIALIZATION
+///////////////////////////////////////
 
-        <style>
-                
-                html { box-sizing: border-box; }
-        html *,
-        html *:before,
-        html *:after { box-sizing: inherit; }
+/**
+ * Functionality for scaling, showing by media query, and navigation between multiple pages on a single page. 
+ * Code subject to change.
+ **/
 
-        body {
-        /* max-width: 42em; */
-        padding: 2em;
-        margin: 0 auto;
-        color: #091b36;
-        font-family: 'Roboto', sans-serif;
-        text-align: center;
-        background-color: currentColor;
-        }
+if (window.console==null) { window["console"] = { log : function() {} } }; // some browsers do not set console
 
-        h1 {
-        margin-bottom: 1.375em;
-        color: #fff;
-        font-weight: 100;
-        font-size: 2em;
-        text-transform: uppercase;
-        }
-        p,
-        a {
-        color: rgba(255,255,255,0.3);
-        font-size: small;
-        }
-        p { margin: 1.375rem 0; }
+var Application = function() {
+	// event constants
+	this.NAVIGATION_CHANGE = "viewChange";
+	this.VIEW_NOT_FOUND = "viewNotFound";
+	this.STATE_NOT_FOUND = "stateNotFound";
+	this.APPLICATION_COMPLETE = "applicationComplete";
+	this.SIZE_STATE_NAME = "data-is-view-scaled";
 
-        .icon {
-        position: relative;
-        display: inline-block;
-        width: 12em;
-        height: 10em;
-        font-size: 1em; /* control icon size here */
-        }
+	this.currentQuery = {index: 0, rule: null, mediaText: null, id: null};
+	this.inclusionQuery = "(min-width: 0px)";
+	this.exclusionQuery = "none and (min-width: 99999px)";
+	this.LastModifiedDateLabelName = "LastModifiedDateLabel";
+	this.viewScaleSliderId = "ViewScaleSliderInput";
+	this.pageRefreshedName = "showPageRefreshedNotification";
+	this.prefix = "--web-";
+	this.applicationStylesheet = null;
+	this.mediaQueryDictionary = {};
+	this.statesDictionary = {};
+	this.states = [];
+	this.views = {};
+	this.viewIds = [];
+	this.viewQueries = {};
+	this.numberOfViews = 0;
+	this.verticalPadding = 0;
+	this.horizontalPadding = 0;
+	this.stateName = null;
+	this.viewScale = 1;
+	this.viewLeft = 0;
+	this.viewTop = 0;
 
-        .cloud {
-        position: absolute;
-        z-index: 1;
-        top: 50%;
-        left: 50%;
-        width: 3.6875em;
-        height: 3.6875em;
-        margin: -1.84375em;
-        background: currentColor;
-        border-radius: 50%;
-        box-shadow:
-            -2.1875em 0.6875em 0 -0.6875em,
-            2.0625em 0.9375em 0 -0.9375em,
-            0 0 0 0.375em #fff,
-            -2.1875em 0.6875em 0 -0.3125em #fff,
-            2.0625em 0.9375em 0 -0.5625em #fff;
-        }
-        .cloud:after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: -0.5em;
-        display: block;
-        width: 4.5625em;
-        height: 1em;
-        background: currentColor;
-        box-shadow: 0 0.4375em 0 -0.0625em #fff;
-        }
-        .cloud:nth-child(2) {
-        z-index: 0;
-        background: #fff;
-        box-shadow:
-            -2.1875em 0.6875em 0 -0.6875em #fff,
-            2.0625em 0.9375em 0 -0.9375em #fff,
-            0 0 0 0.375em #fff,
-            -2.1875em 0.6875em 0 -0.3125em #fff,
-            2.0625em 0.9375em 0 -0.5625em #fff;
-        opacity: 0.3;
-        transform: scale(0.5) translate(6em, -3em);
-        animation: cloud 4s linear infinite;
-        }
-        .cloud:nth-child(2):after { background: #fff; }
+	// view settings
+	this.showUpdateNotification = false;
+	this.showNavigationControls = false;
+	this.scaleViewsToFit = false;
+	this.scaleToFitOnDoubleClick = false;
+	this.actualSizeOnDoubleClick = false;
+	this.scaleViewsOnResize = false;
+	this.navigationOnKeypress = false;
+	this.showViewName = false;
+	this.enableDeepLinking = true;
+	this.refreshPageForChanges = false;
+	this.showRefreshNotifications = true;
 
-        .sun {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 2.5em;
-        height: 2.5em;
-        margin: -1.25em;
-        background: currentColor;
-        border-radius: 50%;
-        box-shadow: 0 0 0 0.375em #fff;
-        animation: spin 12s infinite linear;
-        }
-        .rays {
-        position: absolute;
-        top: -2em;
-        left: 50%;
-        display: block;
-        width: 0.375em;
-        height: 1.125em;
-        margin-left: -0.1875em;
-        background: #fff;
-        border-radius: 0.25em;
-        box-shadow: 0 5.375em #fff;
-        }
-        .rays:before,
-        .rays:after {
-        content: '';
-        position: absolute;
-        top: 0em;
-        left: 0em;
-        display: block;
-        width: 0.375em;
-        height: 1.125em;
-        transform: rotate(60deg);
-        transform-origin: 50% 3.25em;
-        background: #fff;
-        border-radius: 0.25em;
-        box-shadow: 0 5.375em #fff;
-        }
-        .rays:before {
-        transform: rotate(120deg);
-        }
-        .cloud + .sun {
-        margin: -2em 1em;
-        }
+	// view controls
+	this.scaleViewSlider = null;
+	this.lastModifiedLabel = null;
+	this.supportsPopState = false; // window.history.pushState!=null;
+	this.initialized = false;
 
-        .rain,
-        .lightning,
-        .snow {
-        position: absolute;
-        z-index: 2;
-        top: 50%;
-        left: 50%;
-        width: 3.75em;
-        height: 3.75em;
-        margin: 0.375em 0 0 -2em;
-        background: currentColor;
-        }
+	// refresh properties
+	this.refreshDuration = 250;
+	this.lastModifiedDate = null;
+	this.refreshRequest = null;
+	this.refreshInterval = null;
+	this.refreshContent = null;
+	this.refreshContentSize = null;
+	this.refreshCheckContent = false;
+	this.refreshCheckContentSize = false;
 
-        .rain:after {
-        content: '';
-        position: absolute;
-        z-index: 2;
-        top: 50%;
-        left: 50%;
-        width: 1.125em;
-        height: 1.125em;
-        margin: -1em 0 0 -0.25em;
-        background: #0cf;
-        border-radius: 100% 0 60% 50% / 60% 0 100% 50%;
-        box-shadow:
-            0.625em 0.875em 0 -0.125em rgba(255,255,255,0.2),
-            -0.875em 1.125em 0 -0.125em rgba(255,255,255,0.2),
-            -1.375em -0.125em 0 rgba(255,255,255,0.2);
-        transform: rotate(-28deg);
-        animation: rain 3s linear infinite;
-        }
+	var self = this;
 
-        .bolt {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: -0.25em 0 0 -0.125em;
-        color: #fff;
-        opacity: 0.3;
-        animation: lightning 2s linear infinite;
-        }
-        .bolt:nth-child(2) {
-        width: 0.5em;
-        height: 0.25em;
-        margin: -1.75em 0 0 -1.875em;
-        transform: translate(2.5em, 2.25em);
-        opacity: 0.2;
-        animation: lightning 1.5s linear infinite;
-        }
-        .bolt:before,
-        .bolt:after {
-        content: '';
-        position: absolute;
-        z-index: 2;
-        top: 50%;
-        left: 50%;
-        margin: -1.625em 0 0 -1.0125em;
-        border-top: 1.25em solid transparent;
-        border-right: 0.75em solid;
-        border-bottom: 0.75em solid;
-        border-left: 0.5em solid transparent;
-        transform: skewX(-10deg);
-        }
-        .bolt:after {
-        margin: -0.25em 0 0 -0.25em;
-        border-top: 0.75em solid;
-        border-right: 0.5em solid transparent;
-        border-bottom: 1.25em solid transparent;
-        border-left: 0.75em solid;
-        transform: skewX(-10deg);
-        }
-        .bolt:nth-child(2):before {
-        margin: -0.75em 0 0 -0.5em;
-        border-top: 0.625em solid transparent;
-        border-right: 0.375em solid;
-        border-bottom: 0.375em solid;
-        border-left: 0.25em solid transparent;
-        }
-        .bolt:nth-child(2):after {
-        margin: -0.125em 0 0 -0.125em;
-        border-top: 0.375em solid;
-        border-right: 0.25em solid transparent;
-        border-bottom: 0.625em solid transparent;
-        border-left: 0.375em solid;
-        }
+	self.initialize = function(event) {
+		var view = self.getVisibleView();
+		if (view==null) view = self.getInitialView();
+		self.collectViews();
+		self.collectMediaQueries();
+		self.setViewOptions(view);
 
-        .flake:before,
-        .flake:after {
-        content: '\2744';
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin: -1.025em 0 0 -1.0125em;
-        color: #fff;
-        list-height: 1em;
-        opacity: 0.2;
-        animation: spin 8s linear infinite reverse;
-        }
-        .flake:after {
-        margin: 0.125em 0 0 -1em;
-        font-size: 1.5em;
-        opacity: 0.4;
-        animation: spin 14s linear infinite;
-        }
-        .flake:nth-child(2):before {
-        margin: -0.5em 0 0 0.25em;
-        font-size: 1.25em;
-        opacity: 0.2;
-        animation: spin 10s linear infinite;
-        }
-        .flake:nth-child(2):after {
-        margin: 0.375em 0 0 0.125em;
-        font-size: 2em;
-        opacity: 0.4;
-        animation: spin 16s linear infinite reverse;
-        }
+		// sometimes the body size is 0 so we call this now and again later
+		if (self.initialized) {
+			window.addEventListener(self.NAVIGATION_CHANGE, self.viewChangeHandler);
+			window.addEventListener("keyup", self.keypressHandler);
+			window.addEventListener("keypress", self.keypressHandler);
+			window.addEventListener("resize", self.resizeHandler);
+			window.document.addEventListener("dblclick", self.doubleClickHandler);
+
+			if (self.supportsPopState) {
+				window.addEventListener('popstate', self.popStateHandler);
+			}
+			else {
+				window.addEventListener('hashchange', self.hashChangeHandler);
+			}
+
+			// we are ready to go
+			window.dispatchEvent(new Event(self.APPLICATION_COMPLETE));
+		}
+
+		if (self.initialized==false) {
+			if (self.showNavigationControls || (self.singlePageApplication && self.showByMediaQuery==false)) {
+				self.syncronizeViewToURL();
+			}
+	
+			if (self.refreshPageForChanges) {
+				self.setupRefreshForChanges();
+			}
+	
+			self.initialized = true;
+		}
+		
+		if (self.scaleViewsToFit) {
+			self.viewScale = self.scaleViewToFit(view);
+			
+			if (self.viewScale<0) {
+				setTimeout(self.scaleViewToFit, 500, view);
+			}
+		}
+		else if (view) {
+			self.viewScale = self.getViewScaleValue(view);
+			self.updateSliderValue(self.viewScale);
+		}
+		else {
+			// no view found
+		}
+	
+		if (self.showUpdateNotification) {
+			self.showNotification();
+		}
+	
+		//"addEventListener" in window ? null : window.addEventListener = window.attachEvent;
+		//"addEventListener" in document ? null : document.addEventListener = document.attachEvent;
+	}
 
 
-        /* Animations */ 
+	///////////////////////////////////////
+	// AUTO REFRESH 
+	///////////////////////////////////////
 
-        @keyframes spin {
-        100% { transform: rotate(360deg); }
-        }
+	self.setupRefreshForChanges = function() {
+		self.refreshRequest = new XMLHttpRequest();
 
-        @keyframes cloud {
-        0% { opacity: 0; }
-        50% { opacity: 0.3; }
-        100% {
-            opacity: 0;
-            transform: scale(0.5) translate(-200%, -3em);
-        }
-        }
+		if (!self.refreshRequest) {
+			return false;
+		}
 
-        @keyframes rain {
-        0% {
-            background: #0cf;
-            box-shadow:
-            0.625em 0.875em 0 -0.125em rgba(255,255,255,0.2),
-            -0.875em 1.125em 0 -0.125em rgba(255,255,255,0.2),
-            -1.375em -0.125em 0 #0cf;
-        }
-        25% {
-            box-shadow:
-            0.625em 0.875em 0 -0.125em rgba(255,255,255,0.2),
-            -0.875em 1.125em 0 -0.125em #0cf,
-            -1.375em -0.125em 0 rgba(255,255,255,0.2);
-        }
-        50% {
-            background: rgba(255,255,255,0.3);
-            box-shadow:
-            0.625em 0.875em 0 -0.125em #0cf,
-            -0.875em 1.125em 0 -0.125em rgba(255,255,255,0.2),
-            -1.375em -0.125em 0 rgba(255,255,255,0.2);
-        }
-        100% {
-            box-shadow:
-            0.625em 0.875em 0 -0.125em rgba(255,255,255,0.2),
-            -0.875em 1.125em 0 -0.125em rgba(255,255,255,0.2),
-            -1.375em -0.125em 0 #0cf;
-        }
-        }
+		// get document start values immediately
+		self.requestRefreshUpdate();
+	}
 
-        @keyframes lightning {
-        45% {
-            color: #fff;
-            background: #fff;
-            opacity: 0.2;
-        }
-        50% {
-            color: #0cf;
-            background: #0cf;
-            opacity: 1;
-        }
-        55% {
-            color: #fff;
-            background: #fff;
-            opacity: 0.2;
-        }
-        }
+	/**
+	 * Attempt to check the last modified date by the headers 
+	 * or the last modified property from the byte array (experimental)
+	 **/
+	self.requestRefreshUpdate = function() {
+		var url = document.location.href;
+		var protocol = window.location.protocol;
+		var method;
+		
+		try {
 
-        </style>
+			if (self.refreshCheckContentSize) {
+				self.refreshRequest.open('HEAD', url, true);
+			}
+			else if (self.refreshCheckContent) {
+				self.refreshContent = document.documentElement.outerHTML;
+				self.refreshRequest.open('GET', url, true);
+				self.refreshRequest.responseType = "text";
+			}
+			else {
 
-    </head>
+				// get page last modified date for the first call to compare to later
+				if (self.lastModifiedDate==null) {
 
-    <body>
-        <h1 style="font-family: 'Bungee Inline', cursive; color: darkorange;">STORM HACKS</h1>
-        <h5 style="text-align: center; color:beige;">stay tuned</h5>
+					// File system does not send headers in FF so get blob if possible
+					if (protocol=="file:") {
+						self.refreshRequest.open("GET", url, true);
+						self.refreshRequest.responseType = "blob";
+					}
+					else {
+						self.refreshRequest.open("HEAD", url, true);
+						self.refreshRequest.responseType = "blob";
+					}
 
-            <div class="icon sun-shower">
-            <div class="cloud"></div>
-            <div class="sun">
-                <div class="rays"></div>
-            </div>
-            <div class="rain"></div>
-            </div>
+					self.refreshRequest.onload = self.refreshOnLoadOnceHandler;
 
-            <div class="icon thunder-storm">
-            <div class="cloud"></div>
-            <div class="lightning">
-                <div class="bolt"></div>
-                <div class="bolt"></div>
-            </div>
-            </div>
+					// In some browsers (Chrome & Safari) this error occurs at send: 
+					// 
+					// Chrome - Access to XMLHttpRequest at 'file:///index.html' from origin 'null' 
+					// has been blocked by CORS policy: 
+					// Cross origin requests are only supported for protocol schemes: 
+					// http, data, chrome, chrome-extension, https.
+					// 
+					// Safari - XMLHttpRequest cannot load file:///Users/user/Public/index.html. Cross origin requests are only supported for HTTP.
+					// 
+					// Solution is to run a local server, set local permissions or test in another browser
+					self.refreshRequest.send(null);
 
-            <div class="icon cloudy">
-            <div class="cloud"></div>
-            <div class="cloud"></div>
-            </div>
+					// In MS browsers the following behavior occurs possibly due to an AJAX call to check last modified date: 
+					// 
+					// DOM7011: The code on this page disabled back and forward caching.
 
-            <div class="gap-space" style="background-color: #091b36;"></div> 
+					// In Brave (Chrome) error when on the server
+					// index.js:221 HEAD https://www.example.com/ net::ERR_INSUFFICIENT_RESOURCES
+					// self.refreshRequest.send(null);
 
-            <div class="icon flurries">
-            <div class="cloud"></div>
-            <div class="snow">
-                <div class="flake"></div>
-                <div class="flake"></div>
-            </div>
-            </div>
+				}
+				else {
+					self.refreshRequest = new XMLHttpRequest();
+					self.refreshRequest.onreadystatechange = self.refreshHandler;
+					self.refreshRequest.ontimeout = function() {
+						self.log("Couldn't find page to check for updates");
+					}
+					
+					var method;
+					if (protocol=="file:") {
+						method = "GET";
+					}
+					else {
+						method = "HEAD";
+					}
 
-            <div class="icon sunny">
-            <div class="sun">
-                <div class="rays"></div>
-            </div>
-            </div>
+					//refreshRequest.open('HEAD', url, true);
+					self.refreshRequest.open(method, url, true);
+					self.refreshRequest.responseType = "blob";
+					self.refreshRequest.send(null);
+				}
+			}
+		}
+		catch (error) {
+			self.log("Refresh failed for the following reason:")
+			self.log(error);
+		}
+	}
 
-            <div class="icon rainy">
-            <div class="cloud"></div>
-            <div class="rain"></div>
-            </div>
-            
-                <div class="gap-space" style="background-color: #091b36;"></div>
-    </body>
+	self.refreshHandler = function() {
+		var contentSize;
+
+		try {
+
+			if (self.refreshRequest.readyState === XMLHttpRequest.DONE) {
+				
+				if (self.refreshRequest.status === 2 || 
+					self.refreshRequest.status === 200) {
+					var pageChanged = false;
+
+					self.updateLastModifiedLabel();
+
+					if (self.refreshCheckContentSize) {
+						var lastModifiedHeader = self.refreshRequest.getResponseHeader("Last-Modified");
+						contentSize = self.refreshRequest.getResponseHeader("Content-Length");
+						//lastModifiedDate = refreshRequest.getResponseHeader("Last-Modified");
+						var headers = self.refreshRequest.getAllResponseHeaders();
+						var hasContentHeader = headers.indexOf("Content-Length")!=-1;
+						
+						if (hasContentHeader) {
+							contentSize = self.refreshRequest.getResponseHeader("Content-Length");
+
+							// size has not been set yet
+							if (self.refreshContentSize==null) {
+								self.refreshContentSize = contentSize;
+								// exit and let interval call this method again
+								return;
+							}
+
+							if (contentSize!=self.refreshContentSize) {
+								pageChanged = true;
+							}
+						}
+					}
+					else if (self.refreshCheckContent) {
+
+						if (self.refreshRequest.responseText!=self.refreshContent) {
+							pageChanged = true;
+						}
+					}
+					else {
+						lastModifiedHeader = self.getLastModified(self.refreshRequest);
+
+						if (self.lastModifiedDate!=lastModifiedHeader) {
+							self.log("lastModifiedDate:" + self.lastModifiedDate + ",lastModifiedHeader:" +lastModifiedHeader);
+							pageChanged = true;
+						}
+
+					}
+
+					
+					if (pageChanged) {
+						clearInterval(self.refreshInterval);
+						self.refreshUpdatedPage();
+						return;
+					}
+
+				}
+				else {
+					self.log('There was a problem with the request.');
+				}
+
+			}
+		}
+		catch( error ) {
+			//console.log('Caught Exception: ' + error);
+		}
+	}
+
+	self.refreshOnLoadOnceHandler = function(event) {
+
+		// get the last modified date
+		if (self.refreshRequest.response) {
+			self.lastModifiedDate = self.getLastModified(self.refreshRequest);
+
+			if (self.lastModifiedDate!=null) {
+
+				if (self.refreshInterval==null) {
+					self.refreshInterval = setInterval(self.requestRefreshUpdate, self.refreshDuration);
+				}
+			}
+			else {
+				self.log("Could not get last modified date from the server");
+			}
+		}
+	}
+
+	self.refreshUpdatedPage = function() {
+		if (self.showRefreshNotifications) {
+			var date = new Date().setTime((new Date().getTime()+10000));
+			document.cookie = encodeURIComponent(self.pageRefreshedName) + "=true" + "; max-age=6000;" + " path=/";
+		}
+
+		document.location.reload(true);
+	}
+
+	self.showNotification = function(duration) {
+		var notificationID = self.pageRefreshedName+"ID";
+		var notification = document.getElementById(notificationID);
+		if (duration==null) duration = 4000;
+
+		if (notification!=null) {return;}
+
+		notification = document.createElement("div");
+		notification.id = notificationID;
+		notification.textContent = "PAGE UPDATED";
+		var styleRule = ""
+		styleRule = "position: fixed; padding: 7px 16px 6px 16px; font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; left: 50%;";
+		styleRule += "top: 20px; background-color: rgba(0,0,0,.5); border-radius: 12px; color:rgb(235, 235, 235); transition: all 2s linear;";
+		styleRule += "transform: translateX(-50%); letter-spacing: .5px; filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, .1))";
+		notification.setAttribute("style", styleRule);
+
+		notification.className= "PageRefreshedClass";
+		
+		document.body.appendChild(notification);
+
+		setTimeout(function() {
+			notification.style.opacity = "0";
+			notification.style.filter = "drop-shadow( 0px 0px 0px rgba(0,0,0, .5))";
+			setTimeout(function() {
+				notification.parentNode.removeChild(notification);
+			}, duration)
+		}, duration);
+
+		document.cookie = encodeURIComponent(self.pageRefreshedName) + "=; max-age=1; path=/";
+	}
+
+	/**
+	 * Get the last modified date from the header 
+	 * or file object after request has been received
+	 **/
+	self.getLastModified = function(request) {
+		var date;
+
+		// file protocol - FILE object with last modified property
+		if (request.response && request.response.lastModified) {
+			date = request.response.lastModified;
+		}
+		
+		// http protocol - check headers
+		if (date==null) {
+			date = request.getResponseHeader("Last-Modified");
+		}
+
+		return date;
+	}
+
+	self.updateLastModifiedLabel = function() {
+		var labelValue = "";
+		
+		if (self.lastModifiedLabel==null) {
+			self.lastModifiedLabel = document.getElementById("LastModifiedLabel");
+		}
+
+		if (self.lastModifiedLabel) {
+			var seconds = parseInt(((new Date().getTime() - Date.parse(document.lastModified)) / 1000 / 60) * 100 + "");
+			var minutes = 0;
+			var hours = 0;
+
+			if (seconds < 60) {
+				seconds = Math.floor(seconds/10)*10;
+				labelValue = seconds + " seconds";
+			}
+			else {
+				minutes = parseInt((seconds/60) + "");
+
+				if (minutes>60) {
+					hours = parseInt((seconds/60/60) +"");
+					labelValue += hours==1 ? " hour" : " hours";
+				}
+				else {
+					labelValue = minutes+"";
+					labelValue += minutes==1 ? " minute" : " minutes";
+				}
+			}
+			
+			if (seconds<10) {
+				labelValue = "Updated now";
+			}
+			else {
+				labelValue = "Updated " + labelValue + " ago";
+			}
+
+			if (self.lastModifiedLabel.firstElementChild) {
+				self.lastModifiedLabel.firstElementChild.textContent = labelValue;
+
+			}
+			else if ("textContent" in self.lastModifiedLabel) {
+				self.lastModifiedLabel.textContent = labelValue;
+			}
+		}
+	}
+
+	self.getShortString = function(string, length) {
+		if (length==null) length = 30;
+		string = string!=null ? string.substr(0, length).replace(/\n/g, "") : "[String is null]";
+		return string;
+	}
+
+	self.getShortNumber = function(value, places) {
+		if (places==null || places<1) places = 4;
+		value = Math.round(value * Math.pow(10,places)) / Math.pow(10, places);
+		return value;
+	}
+
+	///////////////////////////////////////
+	// NAVIGATION CONTROLS
+	///////////////////////////////////////
+
+	self.updateViewLabel = function() {
+		var viewNavigationLabel = document.getElementById("ViewNavigationLabel");
+		var view = self.getVisibleView();
+		var viewIndex = view ? self.getViewIndex(view) : -1;
+		var viewName = view ? self.getViewPreferenceValue(view, self.prefix + "view-name") : null;
+		var viewId = view ? view.id : null;
+
+		if (viewNavigationLabel && view) {
+			if (viewName && viewName.indexOf('"')!=-1) {
+				viewName = viewName.replace(/"/g, "");
+			}
+
+			if (self.showViewName) {
+				viewNavigationLabel.textContent = viewName;
+				self.setTooltip(viewNavigationLabel, viewIndex + 1 + " of " + self.numberOfViews);
+			}
+			else {
+				viewNavigationLabel.textContent = viewIndex + 1 + " of " + self.numberOfViews;
+				self.setTooltip(viewNavigationLabel, viewName);
+			}
+
+		}
+	}
+
+	self.updateURL = function(view) {
+		view = view == null ? self.getVisibleView() : view;
+		var viewId = view ? view.id : null
+		var viewFragment = view ? "#"+ viewId : null;
+
+		if (viewId && self.viewIds.length>1 && self.enableDeepLinking) {
+
+			if (self.supportsPopState==false) {
+				self.setFragment(viewId);
+			}
+			else {
+				if (viewFragment!=window.location.hash) {
+
+					if (window.location.hash==null) {
+						window.history.replaceState({name:viewId}, null, viewFragment);
+					}
+					else {
+						window.history.pushState({name:viewId}, null, viewFragment);
+					}
+				}
+			}
+		}
+	}
+
+	self.setFragment = function(value) {
+		window.location.hash = "#" + value;
+	}
+
+	self.setTooltip = function(element, value) {
+		// setting the tooltip in edge causes a page crash on hover
+		if (/Edge/.test(navigator.userAgent)) { return; }
+
+		if ("title" in element) {
+			element.title = value;
+		}
+	}
+
+	self.getStylesheetRules = function(styleSheet) {
+		try {
+			if (styleSheet) return styleSheet.cssRules || styleSheet.rules;
+	
+			return document.styleSheets[0]["cssRules"] || document.styleSheets[0]["rules"];
+		}
+		catch (error) {
+			// ERRORS:
+			// SecurityError: The operation is insecure.
+			// Errors happen when script loads before stylesheet or loading an external css locally
+
+			// InvalidAccessError: A parameter or an operation is not supported by the underlying object
+			// Place script after stylesheet
+
+			console.log(error);
+			if (error.toString().indexOf("The operation is insecure")!=-1) {
+				console.log("Load the stylesheet before the script or load the stylesheet inline until it can be loaded on a server")
+			}
+			return [];
+		}
+	}
+
+	/**
+	 * If single page application hide all of the views except first
+	 **/
+	self.hideViews = function(selectIndex) {
+		var rules = self.getStylesheetRules();
+		var queryIndex = 0;
+		var numberOfRules = rules!=null ? rules.length : 0;
+
+		// loop through rules and hide media queries except selected
+		for (var i=0;i<numberOfRules;i++) {
+			var rule = rules[i];
+
+			if (rule.media!=null) {
+
+				if (queryIndex==selectIndex) {
+					self.currentQuery.mediaText = rule.conditionText;
+					self.currentQuery.index = selectIndex;
+					self.currentQuery.rule = rule;
+					self.enableMediaQuery(rule);
+				}
+				else {
+					self.disableMediaQuery(rule);
+				}
+				
+				queryIndex++;
+			}
+		}
+
+		self.numberOfViews = queryIndex;
+		self.updateViewLabel();
+		self.updateURL();
+
+		self.dispatchViewChange();
+
+		var view = self.getVisibleView();
+		var viewIndex = view ? self.getViewIndex(view) : -1;
+
+		return viewIndex==selectIndex ? view : null;
+	}
+
+	self.showView = function(view, setViewOptions) {
+		var id = view ? view.id : null;
+		var query = id ? self.mediaQueryDictionary[id] : null;
+		var display = null;
+		setViewOptions = setViewOptions==null ? true : setViewOptions;
+
+		if (query) {
+			self.enableMediaQuery(query);
+			if (view==null) view =self.getVisibleView();
+			if (view && setViewOptions) self.setViewOptions(view);
+		}
+		else if (id) {
+			display = window.getComputedStyle(view).getPropertyValue("display");
+			if (display=="" ||  display=="none") {
+				view.style.display = "block";
+			}
+		}
+	}
+
+	self.showViewById = function(id, setViewOptions) {
+		var view = id ? self.getViewById(id) : null;
+		var query = id ? self.mediaQueryDictionary[id] : null;
+		var display = null;
+		setViewOptions = setViewOptions==null ? true : setViewOptions;
+
+		if (query) {
+			self.enableMediaQuery(query);
+			if (setViewOptions && view) self.setViewOptions(view);
+		}
+		else if (id) {
+			display = window.getComputedStyle(view).getPropertyValue("display");
+			if (display=="" ||  display=="none") {
+				view.style.display = "block";
+			}
+		}
+	}
+
+	self.setViewOptions = function(view) {
+
+		if (view) {
+			self.minimumScale = self.getViewPreferenceValue(view, self.prefix + "minimum-scale");
+			self.scaleViewsToFit = self.getViewPreferenceBoolean(view, self.prefix + "scale-to-fit");
+			self.scaleToFitType = self.getViewPreferenceValue(view, self.prefix + "scale-to-fit-type");
+			self.scaleToFitOnDoubleClick = self.getViewPreferenceBoolean(view, self.prefix + "scale-on-double-click");
+			self.actualSizeOnDoubleClick = self.getViewPreferenceBoolean(view, self.prefix + "actual-size-on-double-click");
+			self.scaleViewsOnResize = self.getViewPreferenceBoolean(view, self.prefix + "scale-on-resize");
+			self.enableScaleUp = self.getViewPreferenceBoolean(view, self.prefix + "enable-scale-up");
+			self.centerHorizontally = self.getViewPreferenceBoolean(view, self.prefix + "center-horizontally");
+			self.centerVertically = self.getViewPreferenceBoolean(view, self.prefix + "center-vertically");
+			self.navigationOnKeypress = self.getViewPreferenceBoolean(view, self.prefix + "navigate-on-keypress");
+			self.showViewName = self.getViewPreferenceBoolean(view, self.prefix + "show-view-name");
+			self.refreshPageForChanges = self.getViewPreferenceBoolean(view, self.prefix + "refresh-for-changes");
+			self.refreshPageForChangesInterval = self.getViewPreferenceValue(view, self.prefix + "refresh-interval");
+			self.showNavigationControls = self.getViewPreferenceBoolean(view, self.prefix + "show-navigation-controls");
+			self.scaleViewSlider = self.getViewPreferenceBoolean(view, self.prefix + "show-scale-controls");
+			self.enableDeepLinking = self.getViewPreferenceBoolean(view, self.prefix + "enable-deep-linking");
+			self.singlePageApplication = self.getViewPreferenceBoolean(view, self.prefix + "application");
+			self.showByMediaQuery = self.getViewPreferenceBoolean(view, self.prefix + "show-by-media-query");
+			self.showUpdateNotification = document.cookie!="" ? document.cookie.indexOf(self.pageRefreshedName)!=-1 : false;
+			self.imageComparisonDuration = self.getViewPreferenceValue(view, self.prefix + "image-comparison-duration");
+
+			if (self.scaleViewsToFit) {
+				var newScaleValue = self.scaleViewToFit(view);
+				
+				if (newScaleValue<0) {
+					setTimeout(self.scaleViewToFit, 500, view);
+				}
+			}
+			else {
+				self.viewScale = self.getViewScaleValue(view);
+				self.updateSliderValue(self.viewScale);
+			}
+
+			if (self.imageComparisonDuration!=null) {
+				// todo
+			}
+
+			if (self.refreshPageForChangesInterval!=null) {
+				self.refreshDuration = Number(self.refreshPageForChangesInterval);
+			}
+		}
+	}
+
+	self.previousView = function(event) {
+		var rules = self.getStylesheetRules();
+		var view = self.getVisibleView()
+		var index = view ? self.getViewIndex(view) : -1;
+		var prevQueryIndex = index!=-1 ? index-1 : self.currentQuery.index-1;
+		var queryIndex = 0;
+		var numberOfRules = rules!=null ? rules.length : 0;
+
+		if (event) {
+			event.stopImmediatePropagation();
+		}
+
+		if (prevQueryIndex<0) {
+			return;
+		}
+
+		// loop through rules and hide media queries except selected
+		for (var i=0;i<numberOfRules;i++) {
+			var rule = rules[i];
+			
+			if (rule.media!=null) {
+
+				if (queryIndex==prevQueryIndex) {
+					self.currentQuery.mediaText = rule.conditionText;
+					self.currentQuery.index = prevQueryIndex;
+					self.currentQuery.rule = rule;
+					self.enableMediaQuery(rule);
+					self.updateViewLabel();
+					self.updateURL();
+					self.dispatchViewChange();
+				}
+				else {
+					self.disableMediaQuery(rule);
+				}
+
+				queryIndex++;
+			}
+		}
+	}
+
+	self.nextView = function(event) {
+		var rules = self.getStylesheetRules();
+		var view = self.getVisibleView();
+		var index = view ? self.getViewIndex(view) : -1;
+		var nextQueryIndex = index!=-1 ? index+1 : self.currentQuery.index+1;
+		var queryIndex = 0;
+		var numberOfRules = rules!=null ? rules.length : 0;
+		var numberOfMediaQueries = self.getNumberOfMediaRules();
+
+		if (event) {
+			event.stopImmediatePropagation();
+		}
+
+		if (nextQueryIndex>=numberOfMediaQueries) {
+			return;
+		}
+
+		// loop through rules and hide media queries except selected
+		for (var i=0;i<numberOfRules;i++) {
+			var rule = rules[i];
+			
+			if (rule.media!=null) {
+
+				if (queryIndex==nextQueryIndex) {
+					self.currentQuery.mediaText = rule.conditionText;
+					self.currentQuery.index = nextQueryIndex;
+					self.currentQuery.rule = rule;
+					self.enableMediaQuery(rule);
+					self.updateViewLabel();
+					self.updateURL();
+					self.dispatchViewChange();
+				}
+				else {
+					self.disableMediaQuery(rule);
+				}
+
+				queryIndex++;
+			}
+		}
+	}
+
+	self.enableMediaQuery = function(rule) {
+
+		try {
+			rule.media.mediaText = self.inclusionQuery;
+		}
+		catch(error) {
+			//self.log(error);
+			rule.conditionText = self.inclusionQuery;
+		}
+	}
+
+	self.disableMediaQuery = function(rule) {
+
+		try {
+			rule.media.mediaText = self.exclusionQuery;
+		}
+		catch(error) {
+			rule.conditionText = self.exclusionQuery;
+		}
+	}
+
+	self.dispatchViewChange = function() {
+		try {
+			var event = new Event(self.NAVIGATION_CHANGE);
+			window.dispatchEvent(event);
+		}
+		catch (error) {
+			// In IE 11: Object doesn't support this action
+		}
+	}
+
+	self.getNumberOfMediaRules = function() {
+		var rules = self.getStylesheetRules();
+		var numberOfRules = rules ? rules.length : 0;
+		var numberOfQueries = 0;
+
+		for (var i=0;i<numberOfRules;i++) {
+			if (rules[i].media!=null) { numberOfQueries++; }
+		}
+		return numberOfQueries;
+	}
+
+	/////////////////////////////////////////
+	// VIEW SCALE 
+	/////////////////////////////////////////
+
+	self.sliderChangeHandler = function(event) {
+		var value = self.getShortNumber(event.currentTarget.value/100);
+		var view = self.getVisibleView();
+		self.setViewScaleValue(view, false, value, true);
+	}
+
+	self.updateSliderValue = function(scale) {
+		var slider = document.getElementById(self.viewScaleSliderId);
+		var tooltip = parseInt(scale * 100 + "") + "%";
+		var inputType;
+		var inputValue;
+		
+		if (slider) {
+			inputValue = self.getShortNumber(scale * 100);
+			if (inputValue!=slider["value"]) {
+				slider["value"] = inputValue;
+			}
+			inputType = slider.getAttributeNS(null, "type");
+
+			if (inputType!="range") {
+				// input range is not supported
+				slider.style.display = "none";
+			}
+
+			self.setTooltip(slider, tooltip);
+		}
+	}
+
+	self.viewChangeHandler = function(event) {
+		var view = self.getVisibleView();
+		var matrix = view ? getComputedStyle(view).transform : null;
+		
+		if (matrix) {
+			self.viewScale = self.getViewScaleValue(view);
+			
+			var scaleNeededToFit = self.getViewFitToViewportScale(view);
+			var isViewLargerThanViewport = scaleNeededToFit<1;
+			
+			// scale large view to fit if scale to fit is enabled
+			if (self.scaleViewsToFit) {
+				self.scaleViewToFit(view);
+			}
+			else {
+				self.updateSliderValue(self.viewScale);
+			}
+		}
+	}
+
+	self.getViewScaleValue = function(view) {
+		var matrix = getComputedStyle(view).transform;
+
+		if (matrix) {
+			var matrixArray = matrix.replace("matrix(", "").split(",");
+			var scaleX = parseFloat(matrixArray[0]);
+			var scaleY = parseFloat(matrixArray[3]);
+			var scale = Math.min(scaleX, scaleY);
+		}
+
+		return scale;
+	}
+
+	self.getViewTranslateYValue = function(view) {
+		var matrix = getComputedStyle(view).transform;
+
+		if (matrix) {
+			var matrixArray = matrix.replace("matrix(", "").split(",");
+			var translateY = parseFloat(matrixArray[5]);
+		}
+
+		return translateY;
+	}
+
+	self.getViewTop = function(view) {
+		var top = getComputedStyle(view).top;
+
+		return top;
+	}
+
+	/**
+	 * Scales view to scale. 
+	 * @param {Object} view view to scale. views are in views array
+	 * @param {Boolean} scaleToFit set to true to scale to fit. set false to use desired scale value
+	 * @param {Number} desiredScale scale to define. not used if scale to fit is false
+	 * @param {Boolean} isSliderChange indicates if slider is callee
+	 */
+	self.setViewScaleValue = function(view, scaleToFit, desiredScale, isSliderChange) {
+		var enableScaleUp = self.enableScaleUp;
+		var scaleToFitType = self.scaleToFitType;
+		var minimumScale = self.minimumScale;
+		var hasMinimumScale = !isNaN(minimumScale) && minimumScale!=""
+		var scaleNeededToFit = self.getViewFitToViewportScale(view, enableScaleUp);
+		var scaleNeededToFitWidth = self.getViewFitToViewportWidthScale(view, enableScaleUp);
+		var scaleNeededToFitHeight = self.getViewFitToViewportHeightScale(view, enableScaleUp);
+		var scaleToFitFull = self.getViewFitToViewportScale(view, true);
+		var scaleToFitFullWidth = self.getViewFitToViewportWidthScale(view, true);
+		var scaleToFitFullHeight = self.getViewFitToViewportHeightScale(view, true);
+		var scaleToWidth = scaleToFitType=="width";
+		var scaleToHeight = scaleToFitType=="height";
+		var shrunkToFit = false;
+		var topPosition = null;
+		var leftPosition = null;
+		var translateY = null;
+		var translateX = null;
+		var transformValue = "";
+		var canCenterVertically = true;
+		var canCenterHorizontally = true;
+
+		//console.log("height:"+scaleNeededToFitHeight+",width:"+scaleNeededToFitWidth+",fit:"+scaleNeededToFit,"desired:"+desiredScale);
+
+		if (scaleToFit && isSliderChange!=true) {
+			if (scaleToFitType=="fit") {
+				desiredScale = scaleNeededToFit;
+			}
+			else if (scaleToFitType=="width") {
+				desiredScale = scaleNeededToFitWidth;
+			}
+			else if (scaleToFitType=="height") {
+				desiredScale = scaleNeededToFitHeight;
+			}
+		}
+		else {
+			if (isNaN(desiredScale)) {
+				desiredScale = 1;
+			}
+		}
+
+		self.updateSliderValue(desiredScale);
+		
+		// scale to fit width
+		if (scaleToWidth && scaleToHeight==false) {
+			canCenterVertically = scaleNeededToFitHeight>=scaleNeededToFitWidth;
+			canCenterHorizontally = scaleNeededToFitWidth>=1 && enableScaleUp==false;
+
+			if (isSliderChange) {
+				canCenterHorizontally = desiredScale<scaleToFitFullWidth;
+			}
+			else if (scaleToFit) {
+				desiredScale = scaleNeededToFitWidth;
+			}
+
+			if (hasMinimumScale) {
+				desiredScale = Math.max(desiredScale, Number(minimumScale));
+			}
+
+			//desiredScale = self.getShortNumber(desiredScale);
+			desiredScale = self.getShortNumber(desiredScale);
+
+			if (desiredScale>1 && (enableScaleUp || isSliderChange)) {
+				transformValue = "scale(" + desiredScale + ")";
+			}
+			else if (desiredScale>=1 && enableScaleUp==false) {
+				transformValue = "scale(" + 1 + ")";
+			}
+			else {
+				transformValue = "scale(" + desiredScale + ")";
+			}
+
+			if (self.centerVertically) {
+				if (canCenterVertically) {
+					translateY = "-50%";
+					topPosition = "50%";
+				}
+				else {
+					translateY = "0";
+					topPosition = "0";
+				}
+				
+				if (view.style.top != topPosition) {
+					view.style.top = topPosition + "";
+				}
+
+				if (canCenterVertically) {
+					transformValue += " translateY(" + translateY+ ")";
+				}
+			}
+
+			if (self.centerHorizontally) {
+				if (canCenterHorizontally) {
+					translateX = "-50%";
+					leftPosition = "50%";
+				}
+				else {
+					translateX = "0";
+					leftPosition = "0";
+				}
+
+				if (view.style.left != leftPosition) {
+					view.style.left = leftPosition + "";
+				}
+
+				if (canCenterHorizontally) {
+					transformValue += " translateX(" + translateX+ ")";
+				}
+			}
+
+			view.style.transformOrigin = "0 0";
+			view.style.transform = transformValue;
+
+			self.viewScale = desiredScale;
+			self.viewLeft = leftPosition;
+			self.viewTop = topPosition;
+
+			return desiredScale;
+		}
+
+		// scale to fit height
+		if (scaleToHeight && scaleToWidth==false) {
+			//canCenterVertically = scaleNeededToFitHeight>=scaleNeededToFitWidth;
+			//canCenterHorizontally = scaleNeededToFitHeight<=scaleNeededToFitWidth && enableScaleUp==false;
+			canCenterVertically = scaleNeededToFitHeight>=scaleNeededToFitWidth;
+			canCenterHorizontally = scaleNeededToFitWidth>=1 && enableScaleUp==false;
+			
+			if (isSliderChange) {
+				canCenterHorizontally = desiredScale<scaleToFitFullHeight;
+			}
+			else if (scaleToFit) {
+				desiredScale = scaleNeededToFitHeight;
+			}
+
+			if (hasMinimumScale) {
+				desiredScale = Math.max(desiredScale, Number(minimumScale));
+			}
+
+			desiredScale = self.getShortNumber(desiredScale);
+
+			if (desiredScale>1 && (enableScaleUp || isSliderChange)) {
+				transformValue = "scale(" + desiredScale + ")";
+			}
+			else if (desiredScale>=1 && enableScaleUp==false) {
+				transformValue = "scale(" + 1 + ")";
+			}
+			else {
+				transformValue = "scale(" + desiredScale + ")";
+			}
+
+			if (self.centerHorizontally) {
+				if (canCenterHorizontally) {
+					translateX = "-50%";
+					leftPosition = "50%";
+				}
+				else {
+					translateX = "0";
+					leftPosition = "0";
+				}
+
+				if (view.style.left != leftPosition) {
+					view.style.left = leftPosition + "";
+				}
+
+				if (canCenterHorizontally) {
+					transformValue += " translateX(" + translateX+ ")";
+				}
+			}
+
+			if (self.centerVertically) {
+				if (canCenterVertically) {
+					translateY = "-50%";
+					topPosition = "50%";
+				}
+				else {
+					translateY = "0";
+					topPosition = "0";
+				}
+				
+				if (view.style.top != topPosition) {
+					view.style.top = topPosition + "";
+				}
+
+				if (canCenterVertically) {
+					transformValue += " translateY(" + translateY+ ")";
+				}
+			}
+
+			view.style.transformOrigin = "0 0";
+			view.style.transform = transformValue;
+
+			self.viewScale = desiredScale;
+			self.viewLeft = leftPosition;
+			self.viewTop = topPosition;
+
+			return scaleNeededToFitHeight;
+		}
+
+		if (scaleToFitType=="fit") {
+			//canCenterVertically = scaleNeededToFitHeight>=scaleNeededToFitWidth;
+			//canCenterHorizontally = scaleNeededToFitWidth>=scaleNeededToFitHeight;
+			canCenterVertically = scaleNeededToFitHeight>=scaleNeededToFit;
+			canCenterHorizontally = scaleNeededToFitWidth>=scaleNeededToFit;
+
+			if (hasMinimumScale) {
+				desiredScale = Math.max(desiredScale, Number(minimumScale));
+			}
+
+			desiredScale = self.getShortNumber(desiredScale);
+
+			if (isSliderChange || scaleToFit==false) {
+				canCenterVertically = scaleToFitFullHeight>=desiredScale;
+				canCenterHorizontally = desiredScale<scaleToFitFullWidth;
+			}
+			else if (scaleToFit) {
+				desiredScale = scaleNeededToFit;
+			}
+
+			transformValue = "scale(" + desiredScale + ")";
+
+			if (self.centerVertically) {
+				if (canCenterVertically) {
+					translateY = "-50%";
+					topPosition = "50%";
+				}
+				else {
+					translateY = "0";
+					topPosition = "0";
+				}
+				
+				if (view.style.top != topPosition) {
+					view.style.top = topPosition + "";
+				}
+
+				if (canCenterVertically) {
+					transformValue += " translateY(" + translateY+ ")";
+				}
+			}
+
+			if (self.centerHorizontally) {
+				if (canCenterHorizontally) {
+					translateX = "-50%";
+					leftPosition = "50%";
+				}
+				else {
+					translateX = "0";
+					leftPosition = "0";
+				}
+
+				if (view.style.left != leftPosition) {
+					view.style.left = leftPosition + "";
+				}
+
+				if (canCenterHorizontally) {
+					transformValue += " translateX(" + translateX+ ")";
+				}
+			}
+
+			view.style.transformOrigin = "0 0";
+			view.style.transform = transformValue;
+
+			self.viewScale = desiredScale;
+			self.viewLeft = leftPosition;
+			self.viewTop = topPosition;
+
+			self.updateSliderValue(desiredScale);
+			
+			return desiredScale;
+		}
+	}
+
+	self.getViewFitToViewportScale = function(view, scaleUp) {
+		var enableScaleUp = scaleUp;
+		var availableWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+		var availableHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+		var elementWidth = parseFloat(getComputedStyle(view, "style").width);
+		var elementHeight = parseFloat(getComputedStyle(view, "style").height);
+		var newScale = 1;
+
+		availableWidth -= self.horizontalPadding;
+		availableHeight -= self.verticalPadding;
+
+		if (enableScaleUp) {
+			newScale = Math.min(availableHeight/elementHeight, availableWidth/elementWidth);
+		}
+		else if (elementWidth > availableWidth || elementHeight > availableHeight) {
+			newScale = Math.min(availableHeight/elementHeight, availableWidth/elementWidth);
+		}
+		
+		return newScale;
+	}
+
+	self.getViewFitToViewportWidthScale = function(view, scaleUp) {
+		var enableScaleUp = scaleUp;
+		var availableWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+		var elementWidth = parseFloat(getComputedStyle(view, "style").width);
+		var newScale = 1;
+
+		availableWidth -= self.horizontalPadding;
+
+		if (enableScaleUp) {
+			newScale = availableWidth/elementWidth;
+		}
+		else if (elementWidth > availableWidth) {
+			newScale = availableWidth/elementWidth;
+		}
+		
+		return newScale;
+	}
+
+	self.getViewFitToViewportHeightScale = function(view, scaleUp) {
+		var enableScaleUp = scaleUp;
+		var availableHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+		var elementHeight = parseFloat(getComputedStyle(view, "style").height);
+		var newScale = 1;
+
+		availableHeight -= self.verticalPadding;
+
+		if (enableScaleUp) {
+			newScale = availableHeight/elementHeight;
+		}
+		else if (elementHeight > availableHeight) {
+			newScale = availableHeight/elementHeight;
+		}
+		
+		return newScale;
+	}
+
+	self.keypressHandler = function(event) {
+		var rightKey = 39;
+		var leftKey = 37;
+		
+		// listen for both events 
+		if (event.type=="keypress") {
+			window.removeEventListener("keyup", self.keypressHandler);
+		}
+		else {
+			window.removeEventListener("keypress", self.keypressHandler);
+		}
+		
+		if (self.showNavigationControls) {
+			if (self.navigationOnKeypress) {
+				if (event.keyCode==rightKey) {
+					self.nextView();
+				}
+				if (event.keyCode==leftKey) {
+					self.previousView();
+				}
+			}
+		}
+		else if (self.navigationOnKeypress) {
+			if (event.keyCode==rightKey) {
+				self.nextView();
+			}
+			if (event.keyCode==leftKey) {
+				self.previousView();
+			}
+		}
+	}
+
+	///////////////////////////////////
+	// GENERAL FUNCTIONS
+	///////////////////////////////////
+
+	self.getViewById = function(id) {
+		id = id ? id.replace("#", "") : "";
+		var view = self.viewIds.indexOf(id)!=-1 && document.getElementById(id);
+		return view;
+	}
+
+	self.getViewIds = function() {
+		var viewIds = self.getViewPreferenceValue(document.body, self.prefix + "view-ids");
+		var viewId = null;
+
+		viewIds = viewIds!=null && viewIds!="" ? viewIds.split(",") : [];
+
+		if (viewIds.length==0) {
+			viewId = self.getViewPreferenceValue(document.body, self.prefix + "view-id");
+			viewIds = viewId ? [viewId] : [];
+		}
+
+		return viewIds;
+	}
+
+	self.getInitialViewId = function() {
+		var viewId = self.getViewPreferenceValue(document.body, self.prefix + "view-id");
+		return viewId;
+	}
+
+	self.getApplicationStylesheet = function() {
+		var stylesheetId = self.getViewPreferenceValue(document.body, self.prefix + "stylesheet-id");
+		self.applicationStylesheet = document.getElementById("applicationStylesheet");
+		return self.applicationStylesheet.sheet;
+	}
+
+	self.getViewQueries = function() {
+		var stylesheetId = self.getViewPreferenceValue(document.body, self.prefix + "stylesheet-id");
+		var viewIds = self.getViewIds();
+	}
+
+	self.getVisibleView = function() {
+		var viewIds = self.getViewIds();
+
+		try {
+			// to do 
+		}
+		catch(error) {
+			console.log("For the page functionality to work the first two style declarations must be the generated ones.");
+			return;
+		}
+		
+		for (var i=0;i<viewIds.length;i++) {
+			var viewId = viewIds[i].replace(/[\#?\.?](.*)/, "$" + "1");
+			var view = document.getElementById(viewId);
+			var postName = "_Class";
+
+			if (view==null && viewId && viewId.lastIndexOf(postName)!=-1) {
+				view = document.getElementById(viewId.replace(postName, ""));
+			}
+			
+			if (view) {
+				var display = window.getComputedStyle(view).display;
+		
+				if (display=="block") {
+					return view;
+				}
+			}
+		}
+
+		return null;
+	}
+
+	self.getInitialView = function() {
+		var viewId = self.getInitialViewId();
+		viewId = viewId.replace(/[\#?\.?](.*)/, "$" + "1");
+		var view = document.getElementById(viewId);
+		var postName = "_Class";
+
+		if (view==null && viewId && viewId.lastIndexOf(postName)!=-1) {
+			view = document.getElementById(viewId.replace(postName, ""));
+		}
+
+		return view;
+	}
+
+	self.getViewIndex = function(view) {
+		var viewIds = self.getViewIds();
+		var id = view ? view.id : null;
+		var index = id && viewIds ? viewIds.indexOf(id) : -1;
+
+		return index;
+	}
+
+	self.syncronizeViewToURL = function() {
+		var fragment = window.location.hash;
+		var view = self.getViewById(fragment);
+		var index = view ? self.getViewIndex(view) : 0;
+		if (index==-1) index = 0;
+		var currentView = self.hideViews(index);
+
+		if (self.supportsPopState && currentView) {
+
+			if (fragment==null) {
+				window.history.replaceState({name:currentView.id}, null, "#"+ currentView.id);
+			}
+			else {
+				window.history.pushState({name:currentView.id}, null, "#"+ currentView.id);
+			}
+		}
+		return view;
+	}
+
+	self.getViewPreferenceBoolean = function(view, property) {
+		var value = window.getComputedStyle(view).getPropertyValue(property);
+		var type = typeof value;
+		
+		if (value=="true" || (type=="string" && value.indexOf("true")!=-1)) {
+			return true;
+		}
+
+		return false;
+	}
+
+	self.getViewPreferenceValue = function(view, property, defaultValue) {
+		var value = window.getComputedStyle(view).getPropertyValue(property);
+
+		if (value===undefined) {
+			return defaultValue;
+		}
+		
+		value = value.replace(/^[\s\"]*/, "");
+		value = value.replace(/[\s\"]*$/, "");
+		value = value.replace(/^[\s"]*(.*?)[\s"]*$/, function (match, capture) { 
+			return capture;
+		});
+
+		return value;
+	}
+
+	self.getStyleRuleValue = function(cssRule, property) {
+		var value = cssRule ? cssRule.style.getPropertyValue(property) : null;
+
+		if (value===undefined) {
+			return null;
+		}
+		
+		value = value.replace(/^[\s\"]*/, "");
+		value = value.replace(/[\s\"]*$/, "");
+		value = value.replace(/^[\s"]*(.*?)[\s"]*$/, function (match, capture) { 
+			return capture;
+		});
+
+		return value;
+	}
+
+	self.getCSSPropertyValueForElement = function(id, property) {
+		var styleSheets = document.styleSheets;
+		var numOfStylesheets = styleSheets.length;
+		var values = [];
+		var selectorIDText = "#" + id;
+		var selectorClassText = "." + id + "_Class";
+		var value;
+
+		for(var i=0;i<numOfStylesheets;i++) {
+			var styleSheet = styleSheets[i];
+			var cssRules = self.getStylesheetRules(styleSheet);
+			var numOfCSSRules = cssRules.length;
+			var cssRule;
+			
+			for (var j=0;j<numOfCSSRules;j++) {
+				cssRule = cssRules[j];
+				
+				if (cssRule.media) {
+					var mediaRules = cssRule.cssRules;
+					var numOfMediaRules = mediaRules ? mediaRules.length : 0;
+					
+					for(var k=0;k<numOfMediaRules;k++) {
+						var mediaRule = mediaRules[k];
+						
+						if (mediaRule.selectorText==selectorIDText || mediaRule.selectorText==selectorClassText) {
+							
+							if (mediaRule.style && property in mediaRule.style) {
+								value = mediaRule.style.getPropertyValue(property);
+								//console.log(property+":" + value);
+								values.push(value);
+							}
+						}
+					}
+				}
+				else {
+
+					if (cssRule.selectorText==selectorIDText || cssRule.selectorText==selectorClassText) {
+						if (cssRule.style && property in cssRule.style) {
+							value = cssRule.style.getPropertyValue(property);
+							//console.log(property+":" + value);
+							values.push(value);
+						}
+					}
+				}
+			}
+		}
+		
+		return values.pop();
+	}
+
+	self.collectViews = function() {
+		var viewIds = self.getViewIds();
+
+		for (let index = 0; index < viewIds.length; index++) {
+			const id = viewIds[index];
+			const view = self.getViewById(id);
+			self.views[id] = view;
+		}
+		
+		self.viewIds = viewIds;
+	}
+
+	self.collectMediaQueries = function() {
+		var viewIds = self.getViewIds();
+		var styleSheet = self.getApplicationStylesheet();
+		var cssRules = self.getStylesheetRules(styleSheet);
+		var numOfCSSRules = cssRules ? cssRules.length : 0;
+		var cssRule;
+		var id = viewIds.length ? viewIds[0]: ""; // single view
+		var selectorIDText = "#" + id;
+		var selectorClassText = "." + id + "_Class";
+		var viewsNotFound = viewIds.slice();
+		var viewsFound = [];
+		var selectorText = null;
+		var property = self.prefix + "view-id";
+		
+		for (var j=0;j<numOfCSSRules;j++) {
+			cssRule = cssRules[j];
+			
+			if (cssRule.media) {
+				var mediaRules = cssRule.cssRules;
+				var numOfMediaRules = mediaRules ? mediaRules.length : 0;
+				
+				for(var k=0;k<numOfMediaRules;k++) {
+					var mediaRule = mediaRules[k];
+					var mediaId = null;
+
+					selectorText = mediaRule.selectorText;
+					
+					if (selectorText==".mediaViewInfo") {
+
+						mediaId = self.getStyleRuleValue(mediaRule, property);
+
+						self.mediaQueryDictionary[mediaId] = cssRule;
+						self.addState(mediaId, cssRule);
+						viewsFound.push(mediaId);
+
+						if (viewsNotFound.indexOf(mediaId)!=-1) {
+							viewsNotFound.splice(viewsNotFound.indexOf(mediaId));
+						}
+
+						break;
+					}
+				}
+			}
+			else {
+				selectorText = cssRule.selectorText.replace(/[#|\s|*]?/g, "");
+
+				if (viewIds.indexOf(selectorText)!=-1) {
+					self.mediaQueryDictionary[selectorText] = cssRule;
+					self.addState(selectorText, cssRule);
+					if (viewsNotFound.indexOf(selectorText)!=-1) {
+						viewsNotFound.splice(viewsNotFound.indexOf(selectorText));
+					}
+					break;
+				}
+			}
+		}
+
+		if (viewsNotFound.length) {
+			console.log("Could not find the following views:" + viewsNotFound.join(",") + "");
+			console.log("Views found:" + viewsFound.join(",") + "");
+		}
+	}
+
+	self.addState = function(name, cssRule) {
+		var state = {name:name, rule:cssRule};
+		self.states.push(name);
+		self.statesDictionary[name] = state;
+	}
+
+	self.hasState = function(name) {
+		
+		if (self.states.indexOf(name)!=-1) {
+			return true;
+		}
+		return false;
+	}
+
+	self.goToState = function(name, maintainPreviousState) {
+		var state = self.statesDictionary[name];
+
+		if (state) {
+			if (maintainPreviousState==false || maintainPreviousState==null) {
+				self.hideViews();
+			}
+			self.enableMediaQuery(state.rule);
+			self.updateViewLabel();
+			self.updateURL();
+		}
+		else {
+			var event = new Event(self.STATE_NOT_FOUND);
+			self.stateName = name;
+			window.dispatchEvent(event);
+		}
+	}
+
+	self.resizeHandler = function(event) {
+		if (self.scaleViewsOnResize) {
+			var view = self.getVisibleView();
+			var isViewScaled = view.getAttributeNS(null, self.SIZE_STATE_NAME)=="false" ? false : true;
+
+			if (isViewScaled) {
+				self.scaleViewToFit(view, true);
+			}
+			else {
+				self.scaleViewToActualSize(view);
+			}
+		}
+	}
+
+	self.preventDoubleClick = function(event) {
+		event.stopImmediatePropagation();
+	}
+
+	self.hashChangeHandler = function(event) {
+		var fragment = window.location.hash ? window.location.hash.replace("#", "") : "";
+		var view = self.getViewById(fragment);
+
+		if (view) {
+			self.hideViews();
+			self.showView(view);
+			self.updateViewLabel();
+		}
+		else {
+			window.dispatchEvent(new Event(self.VIEW_NOT_FOUND));
+		}
+	}
+
+	self.popStateHandler = function(event) {
+		var state = event.state;
+		var fragment = state ? state.name : window.location.hash;
+		var view = self.getViewById(fragment);
+
+		if (view) {
+			self.hideViews();
+			self.showView(view);
+			self.updateViewLabel();
+		}
+		else {
+			window.dispatchEvent(new Event(self.VIEW_NOT_FOUND));
+		}
+	}
+
+	self.doubleClickHandler = function(event) {
+		var view = self.getVisibleView();
+		var scaleValue = view ? self.getViewScaleValue(view) : 1;
+		var scaleNeededToFit = view ? self.getViewFitToViewportScale(view) : 1;
+		var scaleNeededToFitWidth = view ? self.getViewFitToViewportWidthScale(view) : 1;
+		var scaleNeededToFitHeight = view ? self.getViewFitToViewportHeightScale(view) : 1;
+		var scaleToFitType = self.scaleToFitType;
+
+		// Three scenarios
+		// - scale to fit on double click
+		// - set scale to actual size on double click
+		// - switch between scale to fit and actual page size
+
+		if (scaleToFitType=="width") {
+			scaleNeededToFit = scaleNeededToFitWidth;
+		}
+		else if (scaleToFitType=="height") {
+			scaleNeededToFit = scaleNeededToFitHeight;
+		}
+
+		// if scale and actual size enabled then switch between
+		if (self.scaleToFitOnDoubleClick && self.actualSizeOnDoubleClick) {
+			var isViewScaled = view.getAttributeNS(null, self.SIZE_STATE_NAME);
+			var isScaled = false;
+			
+			// if scale is not 1 then view needs scaling
+			if (scaleNeededToFit!=1) {
+
+				// if current scale is at 1 it is at actual size
+				// scale it to fit
+				if (scaleValue==1) {
+					self.scaleViewToFit(view);
+					isScaled = true;
+				}
+				else {
+					// scale is not at 1 so switch to actual size
+					self.scaleViewToActualSize(view);
+					isScaled = false;
+				}
+			}
+			else {
+				// view is smaller than viewport 
+				// so scale to fit() is scale actual size
+				// actual size and scaled size are the same
+				// but call scale to fit to retain centering
+				self.scaleViewToFit(view);
+				isScaled = false;
+			}
+			
+			view.setAttributeNS(null, self.SIZE_STATE_NAME, isScaled+"");
+			isViewScaled = view.getAttributeNS(null, self.SIZE_STATE_NAME);
+		}
+		else if (self.scaleToFitOnDoubleClick) {
+			self.scaleViewToFit(view);
+		}
+		else if (self.actualSizeOnDoubleClick) {
+			self.scaleViewToActualSize(view);
+		}
+
+	}
+
+	self.scaleViewToFit = function(view) {
+		return self.setViewScaleValue(view, true);
+	}
+
+	self.scaleViewToActualSize = function(view) {
+		self.setViewScaleValue(view, false, 1);
+	}
+
+	self.onloadHandler = function(event) {
+		self.initialize();
+	}
+
+	self.getStackArray = function(error) {
+		var value = "";
+		
+		if (error==null) {
+		  try {
+			 error = new Error("Stack");
+		  }
+		  catch (e) {
+			 
+		  }
+		}
+		
+		if ("stack" in error) {
+		  value = error.stack;
+		  var methods = value.match(/\\n/gm);
+	 
+		  var newArray = methods ? methods.map(function (value, index, array) {
+			 value = value.replace("at ","");
+			 return value;
+		  }) : null;
+	 
+		  if (newArray && newArray[0]=="getStackTrace") {
+			 newArray.shift();
+		  }
+		  if (newArray && newArray[0]=="getStackArray") {
+			 newArray.shift();
+		  }
+		  if (newArray && newArray[0]=="getFunctionName") {
+			 newArray.shift();
+		  }
+		  if (newArray && newArray[0]=="object") {
+			 newArray.shift();
+		  }
+		  if (newArray && newArray[0]=="log") {
+			 newArray.shift();
+		  }
+	 
+			return newArray;
+		}
+		
+		return null;
+	}
+
+	self.log = function(value) {
+		console.log.apply(this, [value]);
+	}
+	
+	// initialize on load
+	// sometimes the body size is 0 so we call this now and again later
+	window.addEventListener("load", self.onloadHandler);
+	window.document.addEventListener("DOMContentLoaded", self.onloadHandler);
+}
+
+window.application = new Application();
+</script>
+</head>
+<body>
+<div id="Web_1920___11" class="">
+	<div id="Menu">
+		<div id="ABOUT">
+			<span>ABOUT</span>
+		</div>
+		<div id="SPONSORS">
+			<span>SPONSORS</span>
+		</div>
+		<div id="FAQ">
+			<span>FAQ</span>
+		</div>
+	</div>
+	<div id="Menu_A0_Group_2">
+		<div id="_SFU_SURGE_LOGO___PRESENTS_">
+			<span>[SFU SURGE LOGO ] PRESENTS:</span>
+		</div>
+	</div>
+	<div id="Group_37">
+		<div id="Group_38">
+		<svg style="width:inherit;height:inherit;overflow:visible;">
+			<rect fill="url(#Group_38_A0_Group_45_pattern)" width="100%" height="100%"></rect>
+				<pattern elementId="Group_38_A0_Group_45" id="Group_38_A0_Group_45_pattern" x="0" y="0" width="100%" height="100%">
+					<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/Group_38_A0_Group_45_pattern.png" xlink:href="Group_38_A0_Group_45_pattern.png"></image>
+				</pattern>
+				</svg>
+			</div>
+	</div>
+	<div id="Group_4">
+		<div id="ABOUT_A0_Text_5">
+			<span>ABOUT</span>
+		</div>
+		<div id="StormHacks_is_hosted_by_SFU_Su">
+			<span>StormHacks is hosted by SFU Surge - a newly established club at Simon Fraser University that inspires and empowers students in the tech community. We connect students with industry professionals through events such as workshops, talks, hackathons and more. We want students to take charge of their own career, so we aim to create a comfortable environment for students to learn, build, and grow together!<br/> </span>
+		</div>
+		<div id="WHAT_IS_STORMHACKS_">
+			<span>WHAT IS STORMHACKS?</span>
+		</div>
+	</div>
+	<div id="Group_10">
+		<div id="WHO_SHOULD_APPLY">
+			<span>WHO SHOULD APPLY</span>
+		</div>
+		<div id="Lorem_ipsum_dolor_sit_amet__co">
+			<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+		</div>
+		<svg class="lightening1">
+			<pattern elementId="lightening1_A0_Rectangle_2" id="lightening1_A0_Rectangle_2_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/lightening1_A0_Rectangle_2_pattern.png" xlink:href="lightening1_A0_Rectangle_2_pattern.png"></image>
+			</pattern>
+			<rect fill="url(#lightening1_A0_Rectangle_2_pattern)" id="lightening1" rx="0" ry="0" x="0" y="0" width="55" height="54">
+			</rect>
+		</svg>
+	</div>
+	<svg class="Screen_Shot_2019_10_25_at_5_31" viewBox="0 0 325 339">
+		<pattern elementId="Screen_Shot_2019_10_25_at_5_31_A0_Path_4" id="Screen_Shot_2019_10_25_at_5_31_A0_Path_4_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/Screen_Shot_2019_10_25_at_5_31_A0_Path_4_pattern.png" xlink:href="Screen_Shot_2019_10_25_at_5_31_A0_Path_4_pattern.png"></image>
+		</pattern>
+		<path fill="url(#Screen_Shot_2019_10_25_at_5_31_A0_Path_4_pattern)" id="Screen_Shot_2019_10_25_at_5_31" d="M 0 0 L 325 0 L 325 339 L 0 339 L 0 0 Z">
+		</path>
+	</svg>
+	<div id="Group_30">
+		<div id="Group_23">
+		<svg style="width:inherit;height:inherit;overflow:visible;">
+			<rect fill="url(#Group_23_A0_Group_46_pattern)" width="100%" height="100%"></rect>
+				<pattern elementId="Group_23_A0_Group_46" id="Group_23_A0_Group_46_pattern" x="0" y="0" width="100%" height="100%">
+					<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/Group_23_A0_Group_46_pattern.png" xlink:href="Group_23_A0_Group_46_pattern.png"></image>
+				</pattern>
+				</svg>
+			</div>
+	</div>
+	<div id="Group_31">
+		<div id="Group_28">
+			<div id="Group_25">
+			<svg style="width:inherit;height:inherit;overflow:visible;">
+				<rect fill="url(#Group_25_A0_Group_47_pattern)" width="100%" height="100%"></rect>
+					<pattern elementId="Group_25_A0_Group_47" id="Group_25_A0_Group_47_pattern" x="0" y="0" width="100%" height="100%">
+						<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/Group_25_A0_Group_47_pattern.png" xlink:href="Group_25_A0_Group_47_pattern.png"></image>
+					</pattern>
+					</svg>
+				</div>
+		</div>
+		<div id="Group_25_A0_Group_12">
+		<svg style="width:inherit;height:inherit;overflow:visible;">
+			<rect fill="url(#Group_25_A0_Group_48_pattern)" width="100%" height="100%"></rect>
+				<pattern elementId="Group_25_A0_Group_48" id="Group_25_A0_Group_48_pattern" x="0" y="0" width="100%" height="100%">
+					<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/Group_25_A0_Group_48_pattern.png" xlink:href="Group_25_A0_Group_48_pattern.png"></image>
+				</pattern>
+				</svg>
+			</div>
+	</div>
+	<div id="Menu_A0_Group_13">
+		<div id="StormHacks_2019">
+			<span>StormHacks 2019</span>
+		</div>
+		<div id="CATCHY_CATCH_PHRASE">
+			<span>CATCHY CATCH PHRASE</span>
+		</div>
+		<div id="FEB_7th___8th___SFU">
+			<span>FEB 7th - 8th @ SFU</span>
+		</div>
+	</div>
+	<svg class="lightening1_A0_Rectangle_3">
+		<pattern elementId="lightening1_A0_Rectangle_4" id="lightening1_A0_Rectangle_4_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/lightening1_A0_Rectangle_4_pattern.png" xlink:href="lightening1_A0_Rectangle_4_pattern.png"></image>
+		</pattern>
+		<rect fill="url(#lightening1_A0_Rectangle_4_pattern)" id="lightening1_A0_Rectangle_3" rx="0" ry="0" x="0" y="0" width="55" height="54">
+		</rect>
+	</svg>
+	<div id="Group_46">
+		<div id="Group_26">
+			<div id="Group_25_A0_Group_16">
+			<svg style="width:inherit;height:inherit;overflow:visible;">
+				<rect fill="url(#Group_25_A0_Group_49_pattern)" width="100%" height="100%"></rect>
+					<pattern elementId="Group_25_A0_Group_49" id="Group_25_A0_Group_49_pattern" x="0" y="0" width="100%" height="100%">
+						<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/Group_25_A0_Group_49_pattern.png" xlink:href="Group_25_A0_Group_49_pattern.png"></image>
+					</pattern>
+					</svg>
+				</div>
+		</div>
+		<div id="Group_27">
+			<div id="Group_25_A0_Group_18">
+			<svg style="width:inherit;height:inherit;overflow:visible;">
+				<rect fill="url(#Group_25_A0_Group_50_pattern)" width="100%" height="100%"></rect>
+					<pattern elementId="Group_25_A0_Group_50" id="Group_25_A0_Group_50_pattern" x="0" y="0" width="100%" height="100%">
+						<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/Group_25_A0_Group_50_pattern.png" xlink:href="Group_25_A0_Group_50_pattern.png"></image>
+					</pattern>
+					</svg>
+				</div>
+		</div>
+		<div id="Group_55">
+			<div id="Group_25_A0_Group_20">
+			<svg style="width:inherit;height:inherit;overflow:visible;">
+				<rect fill="url(#Group_25_A0_Group_51_pattern)" width="100%" height="100%"></rect>
+					<pattern elementId="Group_25_A0_Group_51" id="Group_25_A0_Group_51_pattern" x="0" y="0" width="100%" height="100%">
+						<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/Group_25_A0_Group_51_pattern.png" xlink:href="Group_25_A0_Group_51_pattern.png"></image>
+					</pattern>
+					</svg>
+				</div>
+		</div>
+	</div>
+	<div id="Group_35">
+		<div id="Group_28_A0_Group_22">
+			<div id="Group_25_A0_Group_23">
+			<svg style="width:inherit;height:inherit;overflow:visible;">
+				<rect fill="url(#Group_25_A0_Group_52_pattern)" width="100%" height="100%"></rect>
+					<pattern elementId="Group_25_A0_Group_52" id="Group_25_A0_Group_52_pattern" x="0" y="0" width="100%" height="100%">
+						<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/Group_25_A0_Group_52_pattern.png" xlink:href="Group_25_A0_Group_52_pattern.png"></image>
+					</pattern>
+					</svg>
+				</div>
+		</div>
+		<div id="Group_25_A0_Group_24">
+		<svg style="width:inherit;height:inherit;overflow:visible;">
+			<rect fill="url(#Group_25_A0_Group_53_pattern)" width="100%" height="100%"></rect>
+				<pattern elementId="Group_25_A0_Group_53" id="Group_25_A0_Group_53_pattern" x="0" y="0" width="100%" height="100%">
+					<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/Group_25_A0_Group_53_pattern.png" xlink:href="Group_25_A0_Group_53_pattern.png"></image>
+				</pattern>
+				</svg>
+			</div>
+	</div>
+	<div id="Group_39">
+		<svg class="Rectangle_17">
+			<rect fill="rgba(255,181,0,1)" id="Rectangle_17" rx="16" ry="16" x="0" y="0" width="200" height="72">
+			</rect>
+		</svg>
+		<svg class="Rectangle_18">
+			<rect fill="rgba(255,181,0,1)" id="Rectangle_18" rx="16" ry="16" x="0" y="0" width="200" height="72">
+			</rect>
+		</svg>
+		<div id="SIGN_IN">
+			<span>SIGN IN</span>
+		</div>
+		<div id="APPLY_NOW">
+			<span>APPLY NOW</span>
+		</div>
+	</div>
+	<div id="Group_40">
+		<div id="OUR_SPONSORS">
+			<span>OUR SPONSORS</span>
+		</div>
+		<div id="Group_12">
+		</div>
+		<svg class="Rectangle_6">
+			<rect fill="rgba(240,240,240,1)" id="Rectangle_6" rx="38" ry="38" x="0" y="0" width="1364" height="1267">
+			</rect>
+		</svg>
+		<svg class="Rectangle_19">
+			<rect fill="rgba(240,240,240,1)" id="Rectangle_19" rx="38" ry="38" x="0" y="0" width="1303" height="1210">
+			</rect>
+		</svg>
+		<svg class="lightening1_A0_Rectangle_9">
+			<pattern elementId="lightening1_A0_Rectangle_10" id="lightening1_A0_Rectangle_10_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/lightening1_A0_Rectangle_10_pattern.png" xlink:href="lightening1_A0_Rectangle_10_pattern.png"></image>
+			</pattern>
+			<rect fill="url(#lightening1_A0_Rectangle_10_pattern)" id="lightening1_A0_Rectangle_9" rx="0" ry="0" x="0" y="0" width="55" height="54">
+			</rect>
+		</svg>
+	</div>
+	<div id="Group_45">
+		<div id="SCHEDULE">
+			<span>SCHEDULE</span>
+		</div>
+		<div id="Group_12_A0_Group_29">
+		</div>
+		<svg class="Rectangle_6_A0_Rectangle_11">
+			<rect fill="rgba(240,240,240,1)" id="Rectangle_6_A0_Rectangle_11" rx="38" ry="38" x="0" y="0" width="750" height="1267">
+			</rect>
+		</svg>
+		<svg class="Rectangle_20">
+			<rect fill="rgba(240,240,240,1)" id="Rectangle_20" rx="38" ry="38" x="0" y="0" width="716" height="1210">
+			</rect>
+		</svg>
+		<svg class="lightening1_A0_Rectangle_13">
+			<pattern elementId="lightening1_A0_Rectangle_14" id="lightening1_A0_Rectangle_14_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/lightening1_A0_Rectangle_14_pattern.png" xlink:href="lightening1_A0_Rectangle_14_pattern.png"></image>
+			</pattern>
+			<rect fill="url(#lightening1_A0_Rectangle_14_pattern)" id="lightening1_A0_Rectangle_13" rx="0" ry="0" x="0" y="0" width="55" height="54">
+			</rect>
+		</svg>
+	</div>
+	<svg class="Path_12" viewBox="0 0 572.07 572.07">
+		<path fill="rgba(255,255,255,1)" id="Path_12" d="M 286.03515625 0 C 444.0080261230469 0 572.0703125 128.0623168945312 572.0703125 286.03515625 C 572.0703125 444.0080261230469 444.0080261230469 572.0703125 286.03515625 572.0703125 C 128.0623168945312 572.0703125 0 444.0080261230469 0 286.03515625 C 0 128.0623168945312 128.0623168945312 0 286.03515625 0 Z">
+		</path>
+	</svg>
+	<svg class="Path_13" viewBox="0 0 531.144 531.144">
+		<path fill="rgba(24,18,49,1)" id="Path_13" d="M 265.57177734375 0 C 412.2430419921875 0 531.1435546875 118.9005508422852 531.1435546875 265.57177734375 C 531.1435546875 412.2430419921875 412.2430419921875 531.1435546875 265.57177734375 531.1435546875 C 118.9005508422852 531.1435546875 0 412.2430419921875 0 265.57177734375 C 0 118.9005508422852 118.9005508422852 0 265.57177734375 0 Z">
+		</path>
+	</svg>
+	<svg class="Ellipse_2">
+		<ellipse fill="rgba(255,255,255,1)" id="Ellipse_2" rx="199.5" ry="199.5" cx="199.5" cy="199.5">
+		</ellipse>
+	</svg>
+	<svg class="Ellipse_3">
+		<ellipse fill="rgba(24,18,49,1)" id="Ellipse_3" rx="179.5" ry="179.5" cx="179.5" cy="179.5">
+		</ellipse>
+	</svg>
+	<svg class="gallery_icon">
+		<pattern elementId="gallery_icon_A0_Rectangle_16" id="gallery_icon_A0_Rectangle_16_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/gallery_icon_A0_Rectangle_16_pattern.png" xlink:href="gallery_icon_A0_Rectangle_16_pattern.png"></image>
+		</pattern>
+		<rect fill="url(#gallery_icon_A0_Rectangle_16_pattern)" id="gallery_icon" rx="0" ry="0" x="0" y="0" width="134" height="134">
+		</rect>
+	</svg>
+	<svg class="gallery_icon_A0_Rectangle_17">
+		<pattern elementId="gallery_icon_A0_Rectangle_18" id="gallery_icon_A0_Rectangle_18_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/gallery_icon_A0_Rectangle_18_pattern.png" xlink:href="gallery_icon_A0_Rectangle_18_pattern.png"></image>
+		</pattern>
+		<rect fill="url(#gallery_icon_A0_Rectangle_18_pattern)" id="gallery_icon_A0_Rectangle_17" rx="0" ry="0" x="0" y="0" width="134" height="134">
+		</rect>
+	</svg>
+	<div id="Group_42">
+		<svg class="Path_14" viewBox="0 0 426 426">
+			<path fill="rgba(255,255,255,1)" id="Path_14" d="M 213 0 C 330.6366577148438 0 426 95.36334991455078 426 213 C 426 330.6366577148438 330.6366577148438 426 213 426 C 95.36334991455078 426 0 330.6366577148438 0 213 C 0 95.36334991455078 95.36334991455078 0 213 0 Z">
+			</path>
+		</svg>
+		<svg class="Ellipse_4">
+			<ellipse fill="rgba(255,255,255,1)" id="Ellipse_4" rx="185" ry="185" cx="185" cy="185">
+			</ellipse>
+		</svg>
+		<div id="Lorem_ipsum_dolor_sit_amet__co_A0_Text_17">
+			<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+		</div>
+		<div id="TITLE_1">
+			<span>TITLE 1</span>
+		</div>
+	</div>
+	<div id="Group_43">
+		<svg class="Ellipse_5">
+			<ellipse fill="rgba(255,255,255,1)" id="Ellipse_5" rx="213" ry="213" cx="213" cy="213">
+			</ellipse>
+		</svg>
+		<svg class="Ellipse_4_A0_Ellipse_5">
+			<ellipse fill="rgba(255,255,255,1)" id="Ellipse_4_A0_Ellipse_5" rx="185" ry="185" cx="185" cy="185">
+			</ellipse>
+		</svg>
+		<div id="Lorem_ipsum_dolor_sit_amet__co_A0_Text_19">
+			<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+		</div>
+		<div id="TITLE_1_A0_Text_20">
+			<span>TITLE 1</span>
+		</div>
+	</div>
+	<div id="Group_44">
+		<svg class="Ellipse_5_A0_Ellipse_6">
+			<ellipse fill="rgba(255,255,255,1)" id="Ellipse_5_A0_Ellipse_6" rx="213" ry="213" cx="213" cy="213">
+			</ellipse>
+		</svg>
+		<svg class="Ellipse_4_A0_Ellipse_7">
+			<ellipse fill="rgba(255,255,255,1)" id="Ellipse_4_A0_Ellipse_7" rx="185" ry="185" cx="185" cy="185">
+			</ellipse>
+		</svg>
+		<div id="Lorem_ipsum_dolor_sit_amet__co_A0_Text_21">
+			<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+		</div>
+		<div id="TITLE_1_A0_Text_22">
+			<span>TITLE 1</span>
+		</div>
+	</div>
+	<div id="Group_48">
+		<div id="Group_23_A0_Group_34">
+		<svg style="width:inherit;height:inherit;overflow:visible;">
+			<rect fill="url(#Group_23_A0_Group_54_pattern)" width="100%" height="100%"></rect>
+				<pattern elementId="Group_23_A0_Group_54" id="Group_23_A0_Group_54_pattern" x="0" y="0" width="100%" height="100%">
+					<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/Group_23_A0_Group_54_pattern.png" xlink:href="Group_23_A0_Group_54_pattern.png"></image>
+				</pattern>
+				</svg>
+			</div>
+	</div>
+	<div id="Group_49">
+		<div id="Group_26_A0_Group_36">
+			<div id="Group_25_A0_Group_37">
+			<svg style="width:inherit;height:inherit;overflow:visible;">
+				<rect fill="url(#Group_25_A0_Group_55_pattern)" width="100%" height="100%"></rect>
+					<pattern elementId="Group_25_A0_Group_55" id="Group_25_A0_Group_55_pattern" x="0" y="0" width="100%" height="100%">
+						<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/Group_25_A0_Group_55_pattern.png" xlink:href="Group_25_A0_Group_55_pattern.png"></image>
+					</pattern>
+					</svg>
+				</div>
+		</div>
+		<div id="Group_27_A0_Group_38">
+			<div id="Group_25_A0_Group_39">
+			<svg style="width:inherit;height:inherit;overflow:visible;">
+				<rect fill="url(#Group_25_A0_Group_56_pattern)" width="100%" height="100%"></rect>
+					<pattern elementId="Group_25_A0_Group_56" id="Group_25_A0_Group_56_pattern" x="0" y="0" width="100%" height="100%">
+						<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/Group_25_A0_Group_56_pattern.png" xlink:href="Group_25_A0_Group_56_pattern.png"></image>
+					</pattern>
+					</svg>
+				</div>
+		</div>
+	</div>
+	<div id="FEB_7th__DAY_1_">
+		<span>FEB 7th (DAY 1)</span>
+	</div>
+	<div id="Group_50">
+		<div id="FREQUENTLY_ASKED_QUESTIONS">
+			<span>FREQUENTLY ASKED QUESTIONS</span>
+		</div>
+		<svg class="lightening1_A0_Rectangle_19">
+			<pattern elementId="lightening1_A0_Rectangle_20" id="lightening1_A0_Rectangle_20_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/lightening1_A0_Rectangle_20_pattern.png" xlink:href="lightening1_A0_Rectangle_20_pattern.png"></image>
+			</pattern>
+			<rect fill="url(#lightening1_A0_Rectangle_20_pattern)" id="lightening1_A0_Rectangle_19" rx="0" ry="0" x="0" y="0" width="55" height="54">
+			</rect>
+		</svg>
+		<div id="Group_53">
+			<div id="Group_51">
+				<div id="WHAT_IS_STORMHACKS__A0_Text_25">
+					<span>WHAT IS STORMHACKS?</span>
+				</div>
+				<div id="WHEN_WILL_DECISIONS_BE_RELEASE">
+					<span>WHEN WILL DECISIONS BE RELEASED?</span>
+				</div>
+				<div id="HOW_DO_I_GET_TO_STORMHACKS_">
+					<span>HOW DO I GET TO STORMHACKS?</span>
+				</div>
+				<div id="HOW_MANY_PEOPLE_CAN_BE_ON_A_TE">
+					<span>HOW MANY PEOPLE CAN BE ON A TEAM?</span>
+				</div>
+				<div id="WHAT_KIND_OF_HARDWARE_WILL_BE_">
+					<span>WHAT KIND OF HARDWARE WILL BE PROVIDED?</span>
+				</div>
+			</div>
+			<div id="Group_52">
+				<div id="WHO_CAN_PARTICIPATE_">
+					<span>WHO CAN PARTICIPATE?</span>
+				</div>
+				<div id="HOW_MUCH_DOES_IT_COST_TO_ATTEN">
+					<span>HOW MUCH DOES IT COST TO ATTEND?</span>
+				</div>
+				<div id="WHAT_IF_I_VE_NEVER_BEEN_TO_A_H">
+					<span>WHAT IF I’VE NEVER BEEN TO A HACKATHON BEFORE?</span>
+				</div>
+				<div id="WHAT_KIND_OF_ACTIVITIES_WILL_B">
+					<span>WHAT KIND OF ACTIVITIES WILL BE THERE?</span>
+				</div>
+				<div id="ID404__QUESTIONS_NOT_FOUND">
+					<span>404: QUESTIONS NOT FOUND</span>
+				</div>
+			</div>
+		</div>
+		<div id="Group_54">
+			<svg class="Polygon_1" viewBox="0 0 16 9">
+				<path fill="rgba(255,181,0,1)" id="Polygon_1" d="M 7.252593040466309 0.8408352136611938 C 7.650383949279785 0.3933204412460327 8.349620819091797 0.3933204412460327 8.747411727905273 0.8408352136611938 L 14.52056789398193 7.335635662078857 C 15.09381484985352 7.980537414550781 14.63600921630859 9 13.77315902709961 9 L 2.226844310760498 9 C 1.363995313644409 9 0.9061893224716187 7.980537414550781 1.479435086250305 7.335635662078857 Z">
+				</path>
+			</svg>
+			<svg class="Polygon_2" viewBox="0 0 16 9">
+				<path fill="rgba(255,181,0,1)" id="Polygon_2" d="M 7.252593040466309 0.8408352136611938 C 7.650383949279785 0.3933204412460327 8.349620819091797 0.3933204412460327 8.747411727905273 0.8408352136611938 L 14.52056789398193 7.335635662078857 C 15.09381484985352 7.980537414550781 14.63600921630859 9 13.77315902709961 9 L 2.226844310760498 9 C 1.363995313644409 9 0.9061893224716187 7.980537414550781 1.479435086250305 7.335635662078857 Z">
+				</path>
+			</svg>
+			<svg class="Polygon_3" viewBox="0 0 16 9">
+				<path fill="rgba(255,181,0,1)" id="Polygon_3" d="M 7.252593040466309 0.8408352136611938 C 7.650383949279785 0.3933204412460327 8.349620819091797 0.3933204412460327 8.747411727905273 0.8408352136611938 L 14.52056789398193 7.335635662078857 C 15.09381484985352 7.980537414550781 14.63600921630859 9 13.77315902709961 9 L 2.226844310760498 9 C 1.363995313644409 9 0.9061893224716187 7.980537414550781 1.479435086250305 7.335635662078857 Z">
+				</path>
+			</svg>
+			<svg class="Polygon_4" viewBox="0 0 16 9">
+				<path fill="rgba(255,181,0,1)" id="Polygon_4" d="M 7.252593040466309 0.8408352136611938 C 7.650383949279785 0.3933204412460327 8.349620819091797 0.3933204412460327 8.747411727905273 0.8408352136611938 L 14.52056789398193 7.335635662078857 C 15.09381484985352 7.980537414550781 14.63600921630859 9 13.77315902709961 9 L 2.226844310760498 9 C 1.363995313644409 9 0.9061893224716187 7.980537414550781 1.479435086250305 7.335635662078857 Z">
+				</path>
+			</svg>
+			<svg class="Polygon_5" viewBox="0 0 16 9">
+				<path fill="rgba(255,181,0,1)" id="Polygon_5" d="M 7.252593040466309 0.8408352136611938 C 7.650383949279785 0.3933204412460327 8.349620819091797 0.3933204412460327 8.747411727905273 0.8408352136611938 L 14.52056789398193 7.335635662078857 C 15.09381484985352 7.980537414550781 14.63600921630859 9 13.77315902709961 9 L 2.226844310760498 9 C 1.363995313644409 9 0.9061893224716187 7.980537414550781 1.479435086250305 7.335635662078857 Z">
+				</path>
+			</svg>
+			<svg class="Polygon_6" viewBox="0 0 16 9">
+				<path fill="rgba(255,181,0,1)" id="Polygon_6" d="M 7.252593040466309 0.8408352136611938 C 7.650383949279785 0.3933204412460327 8.349620819091797 0.3933204412460327 8.747411727905273 0.8408352136611938 L 14.52056789398193 7.335635662078857 C 15.09381484985352 7.980537414550781 14.63600921630859 9 13.77315902709961 9 L 2.226844310760498 9 C 1.363995313644409 9 0.9061893224716187 7.980537414550781 1.479435086250305 7.335635662078857 Z">
+				</path>
+			</svg>
+			<svg class="Polygon_7" viewBox="0 0 16 9">
+				<path fill="rgba(255,181,0,1)" id="Polygon_7" d="M 7.252593040466309 0.8408352136611938 C 7.650383949279785 0.3933204412460327 8.349620819091797 0.3933204412460327 8.747411727905273 0.8408352136611938 L 14.52056789398193 7.335635662078857 C 15.09381484985352 7.980537414550781 14.63600921630859 9 13.77315902709961 9 L 2.226844310760498 9 C 1.363995313644409 9 0.9061893224716187 7.980537414550781 1.479435086250305 7.335635662078857 Z">
+				</path>
+			</svg>
+			<svg class="Polygon_9" viewBox="0 0 16 9">
+				<path fill="rgba(255,181,0,1)" id="Polygon_9" d="M 7.252593040466309 0.8408352136611938 C 7.650383949279785 0.3933204412460327 8.349620819091797 0.3933204412460327 8.747411727905273 0.8408352136611938 L 14.52056789398193 7.335635662078857 C 15.09381484985352 7.980537414550781 14.63600921630859 9 13.77315902709961 9 L 2.226844310760498 9 C 1.363995313644409 9 0.9061893224716187 7.980537414550781 1.479435086250305 7.335635662078857 Z">
+				</path>
+			</svg>
+			<svg class="Polygon_8" viewBox="0 0 16 9">
+				<path fill="rgba(255,181,0,1)" id="Polygon_8" d="M 7.252593040466309 0.8408352136611938 C 7.650383949279785 0.3933204412460327 8.349620819091797 0.3933204412460327 8.747411727905273 0.8408352136611938 L 14.52056789398193 7.335635662078857 C 15.09381484985352 7.980537414550781 14.63600921630859 9 13.77315902709961 9 L 2.226844310760498 9 C 1.363995313644409 9 0.9061893224716187 7.980537414550781 1.479435086250305 7.335635662078857 Z">
+				</path>
+			</svg>
+			<svg class="Polygon_10" viewBox="0 0 16 9">
+				<path fill="rgba(255,181,0,1)" id="Polygon_10" d="M 7.252593040466309 0.8408352136611938 C 7.650383949279785 0.3933204412460327 8.349620819091797 0.3933204412460327 8.747411727905273 0.8408352136611938 L 14.52056789398193 7.335635662078857 C 15.09381484985352 7.980537414550781 14.63600921630859 9 13.77315902709961 9 L 2.226844310760498 9 C 1.363995313644409 9 0.9061893224716187 7.980537414550781 1.479435086250305 7.335635662078857 Z">
+				</path>
+			</svg>
+		</div>
+	</div>
+	<svg class="Rectangle_21">
+		<rect fill="rgba(23,18,48,1)" id="Rectangle_21" rx="0" ry="0" x="0" y="0" width="1920" height="204">
+		</rect>
+	</svg>
+	<svg class="Screen_Shot_2019_10_25_at_7_28">
+		<pattern elementId="Screen_Shot_2019_10_25_at_7_28_A0_Rectangle_23" id="Screen_Shot_2019_10_25_at_7_28_A0_Rectangle_23_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="{{site.baseurl}}/assets/images/hackathon/Screen_Shot_2019_10_25_at_7_28_A0_Rectangle_23_pattern.png" xlink:href="Screen_Shot_2019_10_25_at_7_28_A0_Rectangle_23_pattern.png"></image>
+		</pattern>
+		<rect fill="url(#Screen_Shot_2019_10_25_at_7_28_A0_Rectangle_23_pattern)" id="Screen_Shot_2019_10_25_at_7_28" rx="0" ry="0" x="0" y="0" width="196" height="60">
+		</rect>
+	</svg>
+</div>
+</body>
 </html>
